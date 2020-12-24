@@ -73,8 +73,8 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 ```
 
 3. Change `_layouts/default.html`, by following steps:
-* `{% if page.use_math %`
-* `	{% include mathjax_support.html %}`
+* `{% if page.use_math %}`
+* `{% include mathjax_support.html %}`
 * `{% endif %}`
 
 4. Yes, it is over! But not totally...
