@@ -39,6 +39,7 @@ Therefore,
 ## Minor things
 ### 2020
 * (20-1) Teaching Assistant for <ins>General Physics</ins>
+* (20-2) Ich habe Deutsch gelernt.
 
 ### 2019
 * (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
