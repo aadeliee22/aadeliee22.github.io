@@ -26,4 +26,7 @@ My website: <https://aadeliee22.github.io/>
 
 ### Math
 $a^2 + b^2 = c^2$
-$$ \sum_i a_i $$
+and
+$$
+\sum_i a_i
+$$
