@@ -73,9 +73,12 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 ```
 
 3. Change `_layouts/default.html` by this:
+
+```html
 {% if page.use_math %}
   {% include mathjax_support.html %}
 {% endif %}
+```
 
 4. Yes, it is over! But not totally...
 If you want to use math formula, than you need to add `use_math: true` at front-matter of the post.
