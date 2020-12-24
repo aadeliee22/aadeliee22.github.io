@@ -5,6 +5,7 @@ toc_sticky: true
 date: 2020-12-09 08:26:28 -0400
 categories: 
   - practice
+use_math: true
 ---
 
 ## Welcome
