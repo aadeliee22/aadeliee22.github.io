@@ -1,5 +1,5 @@
 ---
-title: "About my Website"
+title: "About my Website and Me"
 permalink: /about/
 toc: true
 toc_sticky: true
