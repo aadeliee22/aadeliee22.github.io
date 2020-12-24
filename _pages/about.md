@@ -8,8 +8,15 @@ layout: single
 ---
 
 ## Description
-This website is to list what I have done.
-The categories are classified by time.
+This website is to list what I have done. The categories are classified by time.
+
+### Detail
+I have counted each year's start as March, since it is the beginning of the new semester.
+Therefore, 
+- 2000-1 : spring semester of year 2000, which is between March 1 ~ June 31
+- 2000-s : summer semester of year 2000, which is between July 1 ~ August 31
+- 2000-2 : fall semester of year 2000, which is between September 1 ~ December 31
+- 2000-w : winter semester of year 2000, which is between January 1 ~ February 28
 
 ## Major things
 ### 2021
@@ -25,16 +32,9 @@ The categories are classified by time.
 * (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 * (19-w) AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
-### 2018
+### 2018 ~~(Freshman!)~~
 * (18-w) Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
 * ~~(18-w) Moreover, I got driver's licence by my self!~~
 
 ### 2016-7
 * KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
-
-I have counted each year's start as March, since it is the beginning of the new semester.
-Therefore, 
-- 2000-1 : spring semester of year 2000, which is between March 1 ~ June 31
-- 2000-s : summer semester of year 2000, which is between July 1 ~ August 31
-- 2000-2 : fall semester of year 2000, which is between September 1 ~ December 31
-- 2000-w : winter semester of year 2000, which is between January 1 ~ February 28
