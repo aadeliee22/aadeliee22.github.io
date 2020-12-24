@@ -23,23 +23,32 @@ Therefore,
 - 2000-w : winter semester of year 2000, which is between January 1 ~ February 28 2001.
 
 ## Major things
-### 2021
 ### 2020
 * (20-1) Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics</ins>
-* (20-1) Teaching Assistant for <ins>General Physics</ins>
-* (20-s) Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo: <https://github.com/aadeliee22/MCM>
+* (20-s) Summer Undergraduate Research Fellowship: 
+         Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
 * (20-2) Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
-* ~~New work waiting for 20-w season...~~
 
 ### 2019
 * (19-1) Coanda effect presentation in 'physics club'
-* (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 * (19-w) AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
 ### 2018 
-* ~~(Freshman!)~~
 * (18-w) Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
-* ~~(18-w) Moreover, I got driver's licence by my self!~~
+
+## Minor things
+### 2020
+* (20-1) Teaching Assistant for <ins>General Physics</ins>
+
+### 2019
+* (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
+* (19-w) TOEFL for the 1st time: R26/L29/S22/W23 = TOTAL 100
+
+### 2018
+* Freshman!
+* (18-s) TOECI for the 2nd time: TOTAL 885
+* (18-w) Driver's licence
 
 ### 2016-7
 * KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
+* Research & Education: Stability of liquid surface in condition of human walking
