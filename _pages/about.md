@@ -15,21 +15,14 @@ The categories are classified by time.
 ### 2021
 ### 2020
 * Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics</ins> (20-1)
-
 * Teaching Assistant for <ins>General Physics</ins> (20-1)
-
 * Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo: <https://github.com/aadeliee22/MCM> (20-s)
-
 * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins> (20-2)
-
 * New work waiting for 20-w season...
-
 
 ### 2019
 * Coanda effect presentation in 'physics club' (19-1)
-
 * AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT> (19-w)
-
 
 ### 2018
 * Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> (18-w)
