@@ -72,7 +72,7 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 </script>
 ```
 
-3. Change `_layouts/default.html'
+3. Change `_layouts/default.html`
 ```
 {% if page.use_math %}
   {% include mathjax_support.html %}
