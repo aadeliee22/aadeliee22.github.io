@@ -1,11 +1,12 @@
 ---
-title: "Description about my Website"
+title: "About my Website"
 permalink: /about/
+toc: true
 toc_sticky: true
 toc_ads : true
 layout: single
 ---
 
-## My website
-
-This website is to show what I have done.
+## Description
+This website is to list what I have done.
+The categories are classified by time.
