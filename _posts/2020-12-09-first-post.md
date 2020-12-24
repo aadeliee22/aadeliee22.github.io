@@ -23,3 +23,7 @@ My plan for using this blog is
 ### url 
 My website: <https://aadeliee22.github.io/>
 
+### Math
+$$ 
+a^2 + b^2 = c^2 
+$$
