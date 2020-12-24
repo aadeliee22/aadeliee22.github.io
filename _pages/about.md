@@ -8,10 +8,13 @@ layout: single
 ---
 
 ## Description
-This website is to list what I have done. The categories are classified by time.
+This website is to list what I have done. I guess that nobody is looking this website, because this website is boring. 
+
+But to whom will come and read these pages: Thank you for your delightful interest! 
+And also sorry for my boring website and slight knowledge that will not quite interest you.
 
 ### Detail
-I have counted each year's start as March, since it is the beginning of the new semester.
+The categories are classified by time. I have counted each year's start as March, since it is the beginning of the new semester.
 Therefore, 
 - 2000-1 : spring semester of year 2000, which is between March 1 ~ June 31 2000.
 - 2000-s : summer semester of year 2000, which is between July 1 ~ August 31 2000.
