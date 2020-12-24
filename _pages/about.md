@@ -46,7 +46,7 @@ Therefore,
 
 ### 2018
 * Freshman!
-* (18-s) TOECI for the 2nd time: TOTAL 885
+* (18-s) TOEIC for the 2nd time: TOTAL 885
 * (18-w) Driver's licence
 
 ### 2016-7
