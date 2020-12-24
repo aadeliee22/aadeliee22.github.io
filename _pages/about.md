@@ -32,7 +32,8 @@ Therefore,
 * (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 * (19-w) AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
-### 2018 ~~(Freshman!)~~
+### 2018 
+* ~~(Freshman!)~~
 * (18-w) Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
 * ~~(18-w) Moreover, I got driver's licence by my self!~~
 
