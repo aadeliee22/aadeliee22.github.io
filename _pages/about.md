@@ -8,8 +8,9 @@ layout: single
 ---
 
 ## Description
-This website is to list what I have done. I guess that nobody is looking this website, because this website is boring. 
+This website is to list what I have done. And actually, there is no such plan for this website. This is just my hobby.
 
+I guess that nobody is looking this website, because this website is boring. 
 But to whom will come and read these pages: Thank you for your delightful interest! 
 And also sorry for my boring website and slight knowledge that will not quite interest you.
 
