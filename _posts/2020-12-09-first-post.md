@@ -17,6 +17,7 @@ My plan for using this blog is
 ## Record of my trials.
 ### images:
 ![On June 18, 2019](/assets/images/june-18-2019-hubble-v-nebula.jpg){: width="50%" height="50%"}
+
 To insert images, I made folder named `/assets/images` folder and put certain images there.
 ```
 ![text here](/assets/images/filename.jpg){:width="50% height="50%}
