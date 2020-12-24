@@ -35,7 +35,7 @@ $$
 
 To insert latex formula is not quite simple for me... The reference is here: <https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/>
 1. Change` _config.yml`... but I still don't know how to change this file and rebuild/reload the whole github pages, since I just created this repository not installing jekyll or ruby. Someone who knows the answer please inform me! :(
-```
+```html
 # Conversion
 markdown: kramdown
 highlighter: rouge
@@ -46,7 +46,7 @@ incremental: false
 Luckly, my yml file didn't need any changes.
 
 2. Make `mathjax_support.html`
-```
+```html
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     TeX: {
@@ -73,7 +73,7 @@ MathJax.Hub.Register.MessageHook("TeX Jax - parse error",function (message) {
 ```
 
 3. Change `_layouts/default.html`. You must insert this inside `<head>` part.
-```
+```html
 {% if page.use_math %}
   {% include mathjax_support.html %}
 {% endif %}
