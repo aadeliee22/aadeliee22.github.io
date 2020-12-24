@@ -9,20 +9,18 @@ use_math: true
 ---
 
 ## Plan
-My plan for using this blog is
-- Update my outputs : presentation, projects, etc.
-- CV : I will take some time here.
-- Record what I have done while lab experiences.
+Are you curious about my plan? Go to <https://aadeliee22.github.io/about/>!
 
 ## Record of my trials.
 ### images:
-![On June 18, 2019](/assets/images/june-18-2019-hubble-v-nebula.jpg){: width="50%" height="50%"}
+![On June 18, 2019](/assets/images/june-18-2019-hubble-v-nebula.jpg){: width="25%" height="25%"}
+<center><img src="/assets/images/june-18-2019-hubble-v-nebula.jpg" width="25%" height="25%"></center>
 
 To insert images, I made folder named `/assets/images` folder and put certain images there.
 ```
-![text here](/assets/images/filename.jpg){:width="50% height="50%}
+![text here](/assets/images/filename.jpg){:width="25%" height="25%"}
+<center><img src="/assets/images/filename.png" width="25%" height="25%"></center>
 ```
-and 50% each for smaller photo.
 
 ### url 
 My website: <https://aadeliee22.github.io/> by `<https://blah.blah>`
