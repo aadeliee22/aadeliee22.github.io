@@ -35,7 +35,7 @@ $$
 
 To insert latex formula is not quite simple for me... The reference is here: <https://mkkim85.github.io/blog-apply-mathjax-to-jekyll-and-github-pages/>
 1. Change` _config.yml`... but I still don't know how to change this file and rebuild/reload the whole github pages, since I just created this repository not installing jekyll or ruby. Someone who knows the answer please inform me! :(
-```html
+```markdown
 # Conversion
 markdown: kramdown
 highlighter: rouge
