@@ -6,7 +6,7 @@ date: 2020-12-26 00:01:00
 categories: 
   - 2020-1
 tags: 
-  - finite harmonic oscillator
+  - finite harmonic potential
   - qm
 use_math: true
 ---
