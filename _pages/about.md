@@ -17,10 +17,10 @@ And also sorry for my boring website and slight knowledge that will not quite in
 ### Detail
 The categories are classified by time. I have counted each year's start as March, since it is the beginning of the new semester.
 Therefore, 
-- 2000-1 : spring semester of year 2000, which is between March 1 ~ June 31 2000.
-- 2000-s : summer semester of year 2000, which is between July 1 ~ August 31 2000.
-- 2000-2 : fall semester of year 2000, which is between September 1 ~ December 31 2000.
-- 2000-w : winter semester of year 2000, which is between January 1 ~ February 28 2001.
+- 2000-1 : spring semester of year 2000, March 1 ~ June 31 2000.
+- 2000-s : summer semester of year 2000, July 1 ~ August 31 2000.
+- 2000-2 : fall semester of year 2000, September 1 ~ December 31 2000.
+- 2000-w : winter semester of year 2000, January 1 ~ February 28 2001.
 
 ## Major things
 ### 2020
