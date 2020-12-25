@@ -113,6 +113,7 @@ Above figures describes even(blue) and odd(yellow) equations in order. Below tab
 | 5     | 8.4996333274879466 | 9.49569805353082541 |
 | 6     | 10.492816893317857 | 11.4471134019389483 |
 | 7     | 12.393386755815509 |                     |
+
 Therefore, there are 13 bound states: 7 even, 6 odd. As energy grows, the values get lower thatn the well-known result of half integer. To obtain real values, one can just multiply $\hbar \omega$ to each values.
 
 ### Wave functions
