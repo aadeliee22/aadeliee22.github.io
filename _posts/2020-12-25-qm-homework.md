@@ -2,7 +2,7 @@
 title: "Finite harmonic oscillator in quantum statistics"
 toc: true
 toc_sticky: true
-date: 2020-12-25 15:23:00
+date: 2020-12-26 00:01:00
 categories: 
   - 2020-1
 tags: 
@@ -118,9 +118,9 @@ Above figures describes even(blue) and odd(yellow) equations in order. Below tab
 Therefore, there are 13 bound states: 7 even, 6 odd. As energy grows, the values get lower thatn the well-known result of half integer. To obtain real values, one can just multiply $\hbar \omega$ to each values.
 
 ### Wave functions
-Here are the results of wave function.
+Here are the results of wave function. Blue line indicates the wave function for normal harmonic oscillator, and yellow lines indicate the wave functions of potential well that we were handling.
 
-<center><img src="/assets/images/m_merged.png" width="60%"></center>
+<center><img src="/assets/images/m_merged.png" width="75%"></center>
 
 ## Conclusion
 This result is considered reasonable. Consider the difference between infinite square well and finite square well. In this case, finite square well allows energy slightly below than infinite ones. Expecting lower energy from finite well is plausible. 
