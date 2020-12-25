@@ -43,11 +43,11 @@ Therefore,
 
 ### 2019
 * (19-s) Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
-* (19-w) TOEFL for the 1st time: R26/L29/S22/W23 = TOTAL 100
+* (19-w) TOEFL for the 1st time 100
 
 ### 2018
 * Freshman!
-* (18-s) TOEIC for the 2nd time: TOTAL 885
+* (18-s) TOEIC for the 2nd time 885
 * (18-w) Driver's licence
 
 ### 2016-7
