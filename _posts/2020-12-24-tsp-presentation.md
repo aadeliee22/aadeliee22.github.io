@@ -6,7 +6,7 @@ date: 2020-12-24 18:07:00
 categories: 
   - 2020-2
 tags: 
-  - Quantum Ising
+  - quantum Ising
   - tsp
 use_math: true
 ---
