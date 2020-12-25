@@ -56,7 +56,7 @@ This implies we can use confluent hypergeometric function as solution for this d
 
 Obviously, the wave function outside the well will definitely be $e^{-\sqrt{2(V_0-E)}x}$. Therefore,
 $$
-\begin{align}\notag
+\begin{aligned}\notag
 \psi_{in}&\propto
 \begin{cases}
 	e^{-x^2/2}F_{1,1}\left(\frac{1}{4}-\frac{1}{2}E,\frac{1}{2},x^2\right),\quad\mbox{even} \\
@@ -66,13 +66,13 @@ $$
 	\pm e^{-\sqrt{2(V_0-E)}x},\quad x>a\; (+\mbox{ for even}) \\
 	e^{\sqrt{2(V_0-E)}x},\quad x<-a
 \end{cases}
-\end{align}
+\end{aligned}
 $$
 I used symbol $\propto$ since the normalization constant is not yet given.
 
 To find energy value, impose boundary conditions at $x=a$. (I will not consider $x=-a$, because this gives same result as $x=a$.)
 $$
-\begin{align}\notag
+\begin{aligned}\notag
 	&C\psi_{in}(a)+D\psi_{out}(a)=0=C\psi_{in}'(a)+D\psi'_{out}(a) \\
 	&\begin{pmatrix}
 	\psi_{in}(a)&\psi_{out}(a)\\\psi'_{in}(a)&\psi'_{out}(a)
@@ -82,16 +82,16 @@ $$
 	\end{vmatrix}=\psi_{in}\psi'_{out}-\psi'_{in}\psi_{out}=0 \\
 	&\frac{d}{dx}F_{1,1}\left(A,\frac{1}{2},x^2\right)=4AxF_{1,1}\left(A+1,\frac{3}{2},x^2\right) \\
 	&\frac{d}{dx}F_{1,1}\left(A,\frac{3}{2},x^2\right)=\frac{4}{3}AxF_{1,1}\left(A+1,\frac{5}{2},x^2\right)
-	\end{align}
+	\end{aligned}
 $$
 Using above equations, we can find the energy value that matches our boundary condition. Even cases and odd cases are differently considered.
 $$
-\begin{align}
-	\mbox{even: } (a-\sqrt{2(V_0-E)})&F_{1,1}\left(\frac{1}{4}-\frac{1}{2}E,\frac{1}{2},a^2\right)
-	\\ +a(2E-1)&F_{1,1}\left(\frac{5}{4}-\frac{1}{2}E,\frac{3}{2},a^2\right)=0 \\
-	\mbox{odd: } (a^2-\sqrt{2(V_0-E)}&a+1)F_{1,1}\left(\frac{3}{4}-\frac{1}{2}E,\frac{3}{2},a^2\right)
-	\\ +a^2(\frac{2}{3}E&-1)F_{1,1}\left(\frac{7}{4}-\frac{1}{2}E,\frac{5}{2},a^2\right)=0
-	\end{align}
+\begin{aligned}
+\mbox{even: } (a-\sqrt{2(V_0-E)})&F_{1,1}\left(\frac{1}{4}-\frac{1}{2}E,\frac{1}{2},a^2\right)
+\\ +a(2E-1)&F_{1,1}\left(\frac{5}{4}-\frac{1}{2}E,\frac{3}{2},a^2\right)=0 \\
+\mbox{odd: } (a^2-\sqrt{2(V_0-E)}&a+1)F_{1,1}\left(\frac{3}{4}-\frac{1}{2}E,\frac{3}{2},a^2\right)
+\\ +a^2(\frac{2}{3}E&-1)F_{1,1}\left(\frac{7}{4}-\frac{1}{2}E,\frac{5}{2},a^2\right)=0
+\end{aligned}
 $$
 
 The remaining process is solving the above equation, find energy values, and find corresponding wave functions. Considering the difficulty of computing these, I used Mathematica to compute and draw results.
