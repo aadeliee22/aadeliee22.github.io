@@ -33,11 +33,11 @@ Inside the well, this differential equation is form of parabolic cylinder functi
 
 Confluent hypergeometric equation were suppose to be $xy''+(C-x)y'-Ay=0$, by changing $x$ to $x^2$, the equation becomes $y''(x^2)+\{(2C-1)/x-2x\}y'(x^2)-4Ay(x^2)=0$.
 $$
-\begin{gather}
-\frac{d^2f}{dz^2}-\left(\frac{1}{4}z^2+A\right)f=0 \\\notag
+\begin{aligned}
+\frac{d^2f}{dz^2}-\left(\frac{1}{4}z^2+A\right)f=0 \\
 \mbox{(even): } y_1(A;z)=e^{-z^2/4} F_{1,1}\left(\frac{1}{2}A+\frac{1}{4}, \frac{1}{2}, \frac{z^2}{2}\right) \\
 \mbox{(odd): } y_2(A;z)=ze^{-z^2/4} F_{1,1}\left(\frac{1}{2}A+\frac{3}{4}, \frac{3}{2}, \frac{z^2}{2}\right)
-\end{gather}
+\end{aligned}
 $$
 Where confluent hypergeometric functions are form of 
 $$
@@ -47,10 +47,10 @@ with $A_n=A(A+1)\cdots(A+n-1)$. When first solution is given by $F_{1,1}(A,C,z)$
 
 Surprisingly, Hermite functions can also be expressed by these functions.
 $$
-\begin{gather}
+\begin{aligned}
 H_{2n}(x)=(-1)^n\frac{(2n)!}{n!}F_{1,1}\left(-n,\frac{1}{2},x^2\right) \\
 H_{2n_1}(x)=(-1)^n\frac{2(2n+1)!}{n!}xF_{1,1}\left(-n,\frac{3}{2},x^2\right)
-\end{gather}
+\end{aligned}
 $$
 This implies we can use confluent hypergeometric function as solution for this differential equation. This function is exactly what we were looking for. Therefore, wave function inside the parabolic well is described by $F_{1,1}$ functions.
 
@@ -104,6 +104,7 @@ Solving each even and odd equations, we can numerically obtain the energy values
 <center><img src="/assets/images/mid-3.PNG" width="75%" height="75%"></center>
 
 Above figures describes even(blue) and odd(yellow) equations in order. Below table shows obtained energy values in planck unit.
+
 | order | even               | odd                 |
 |-------|--------------------|---------------------|
 | 1     | 0.4999999999995734 | 1.49999999988478779 |
@@ -112,7 +113,7 @@ Above figures describes even(blue) and odd(yellow) equations in order. Below tab
 | 4     | 6.4999895475710369 | 7.49979373580527079 |
 | 5     | 8.4996333274879466 | 9.49569805353082541 |
 | 6     | 10.492816893317857 | 11.4471134019389483 |
-| 7     | 12.393386755815509 |                     |
+| 7     | 12.393386755815509 ||
 
 Therefore, there are 13 bound states: 7 even, 6 odd. As energy grows, the values get lower thatn the well-known result of half integer. To obtain real values, one can just multiply $\hbar \omega$ to each values.
 
