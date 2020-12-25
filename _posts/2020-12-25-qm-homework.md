@@ -7,7 +7,7 @@ categories:
   - 2020-1
 tags: 
   - finite harmonic potential
-  - qm
+  - quantum mechanics 1
 use_math: true
 ---
 
