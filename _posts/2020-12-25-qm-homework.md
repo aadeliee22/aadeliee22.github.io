@@ -1,5 +1,5 @@
 ---
-title: "Finite harmonic oscillator in quantum statistics"
+title: "Finite harmonic potential with quantum statistics"
 toc: true
 toc_sticky: true
 date: 2020-12-26 00:01:00
