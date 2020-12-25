@@ -7,7 +7,7 @@ categories:
   - 2020-2
 tags: 
   - quantum Ising
-  - tsp
+  - thermodynamics & statistical physics
 use_math: true
 ---
 
