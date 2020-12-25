@@ -24,7 +24,7 @@ Therefore,
 
 ## Major things
 ### 2020
-* (20-1) Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics</ins>
+* (20-1) Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
 * (20-s) Summer Undergraduate Research Fellowship: 
          Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
 * (20-2) Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
