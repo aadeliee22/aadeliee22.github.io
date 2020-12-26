@@ -6,7 +6,7 @@ date: 2020-12-26 00:01:00
 categories: 
   - 2020-1
 tags: 
-  - quantum mechanics 1
+  - quantum mechanics
 use_math: true
 ---
 
