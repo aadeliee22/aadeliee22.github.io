@@ -5,6 +5,8 @@ toc_sticky: true
 date: 2020-12-26 20:36:00
 categories: 
   - trivial
+tags:
+  - 2018-
 ---
 
 운전면허 따는 순서 ~~(학원안가고)~~
