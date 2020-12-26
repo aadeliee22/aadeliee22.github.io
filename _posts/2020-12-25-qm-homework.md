@@ -4,6 +4,7 @@ toc: true
 toc_sticky: true
 date: 2020-12-26 00:01:00
 categories: 
+  - Physics
   - 2020-1
 tags: 
   - quantum mechanics
