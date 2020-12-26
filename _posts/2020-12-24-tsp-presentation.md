@@ -4,9 +4,10 @@ toc: true
 toc_sticky: true
 date: 2020-12-24 18:07:00
 categories: 
+  - Physics
   - 2020-2
 tags: 
-  - quantum Ising
+  - Quantum Ising model
   - thermodynamics & statistical physics
 use_math: true
 ---
