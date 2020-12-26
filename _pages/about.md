@@ -24,32 +24,33 @@ For other miscellaneous things, it is classified as 'trivial'. (According to the
 ## Timeline
 ### 2020
 - 20-1
-* Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
-* Teaching Assistant for <ins>General Physics</ins>
+  * Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
+  * Teaching Assistant for <ins>General Physics</ins>
 - 20-s
-* Summer Undergraduate Research Fellowship: 
+  * Summer Undergraduate Research Fellowship: 
   Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
 - 20-2
-* Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
-* Ich habe Deutsch gelernt. ~~But very beginner~~
+  * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
+  * Ich habe Deutsch gelernt. ~~But very beginner~~
 
 ### 2019
 - 19-1
-* Coanda effect presentation
+  * Coanda effect presentation
 - 19-s
-* Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
+  * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 - 19-w
-* TOEFL for the 1st time 100
-* AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
+  * TOEFL for the 1st time 100
+  * AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
 ### 2018 
-* (18-s) TOEIC for the 2nd time 885
+- 18-s
+  * TOEIC for the 2nd time 885
 - 18-w
-* Driver's licence
-* Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
+  * Driver's licence
+  * Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
 
 ### 2016-7
-* KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
-* Research & Education: Stability of liquid surface in condition of human walking
+  * KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
+  * Research & Education: Stability of liquid surface in condition of human walking
 
 
