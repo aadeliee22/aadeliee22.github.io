@@ -12,7 +12,7 @@ docs:
     children:
       - title: "Physics"
         url: /categories/physics/
-      - title: "trivial"
+      - title: "(+) trivial"
         url: /categories/trivial/
   - title: "Tag"
     url: /tags/
