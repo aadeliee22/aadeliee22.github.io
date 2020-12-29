@@ -5,6 +5,8 @@ toc: true
 toc_sticky: true
 toc_ads : true
 layout: single
+sidebar:
+   nav: docs
 ---
 
 ## Description
