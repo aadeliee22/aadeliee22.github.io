@@ -6,8 +6,6 @@ date: 2020-12-24 18:07:00
 categories: 
   - Physics
 tags: 
-  - Quantum Ising model
-  - thermodynamics & statistical physics
   - 2020-2
 use_math: true
 ---
