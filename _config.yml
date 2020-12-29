@@ -279,8 +279,3 @@ defaults:
       comments: true # true
       share: true
       related: true
-  - scope:
-       path: ""
-       type: docs
-     values:
-      sidebar: "docs"
