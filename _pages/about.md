@@ -28,7 +28,7 @@ For other miscellaneous things, it is classified as 'trivial'. (According to the
    - Making github pages
    - Practicing Beethoven's sonata
    - Reading Ursula Le Guin's novels
-   - 
+   - Excercising, home training
 
 
 ### 2020
