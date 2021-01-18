@@ -25,10 +25,9 @@ For other miscellaneous things, it is classified as 'trivial'. (According to the
 
 ## Timeline
 #### ★ At this moment (20-2.5)
-   - Making github pages
-   - Practicing Beethoven's sonata
-   - Reading Ursula Le Guin's novels
-   - Excercising, home training
+   - In Lab: Learning DMFT method and Machine learning technique(PyTorch) to predicy metal-insulator transition point using Bath orbitals
+   - Toefl study to achieve least 105
+   - Searching for graduate school, focused mainly on United states.
 
 
 ### 2020
@@ -49,12 +48,12 @@ For other miscellaneous things, it is classified as 'trivial'. (According to the
 - 19-1.5
   * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 - 19-2.5
-  * TOEFL for the 1st time 100
+  * TOEFL for the 1st time: 100
   * AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
 ### 2018 
 - 18-1.5
-  * TOEIC for the 2nd time 885
+  * TOEIC for the 2nd time: 885
 - 18-2.5
   * Driver's licence
   * Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
