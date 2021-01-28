@@ -24,7 +24,6 @@ sidebar:
 ### routine
 - study toefl for T(R/L) T(S/W) SS(V)
 - exercise MWF
-- 
 
 # For research
 ```shell
@@ -40,16 +39,16 @@ runnrg1to4 200 1.23 1.22 15.0 && \
 runnrg1to4 200 1.24 1.23 15.0 && \
 runnrg1to4 200 1.25 1.24 15.0
 # insulator-metal
-runnrg4to1 200 2.29 2.3  15.0 && \
-runnrg4to1 200 2.28 2.29 15.0 && \
-runnrg4to1 200 2.27 2.28 15.0 && \
-runnrg4to1 200 2.26 2.27 15.0 && \
-runnrg4to1 200 2.25 2.26 15.0 && \
-runnrg4to1 200 2.24 2.25 15.0 && \
-runnrg4to1 200 2.23 2.24 15.0 && \
-runnrg4to1 200 2.22 2.23 15.0 && \
-runnrg4to1 200 2.21 2.22 15.0 && \
-runnrg4to1 200 2.2  2.21 15.0
+runnrg4to1 200 2.29 2.3  20.0 && \
+runnrg4to1 200 2.28 2.29 20.0 && \
+runnrg4to1 200 2.27 2.28 20.0 && \
+runnrg4to1 200 2.26 2.27 20.0 && \
+runnrg4to1 200 2.25 2.26 20.0 && \
+runnrg4to1 200 2.24 2.25 20.0 && \
+runnrg4to1 200 2.23 2.24 20.0 && \
+runnrg4to1 200 2.22 2.23 20.0 && \
+runnrg4to1 200 2.21 2.22 20.0 && \
+runnrg4to1 200 2.2  2.21 20.0
 ```
 
 * insulator-metal  
