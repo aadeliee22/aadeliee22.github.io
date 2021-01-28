@@ -10,7 +10,7 @@ sidebar:
    nav: docs
 ---
 
-# To do list
+## To do list
 
 ### NRG solver
 * obtaining data of metal -- insulator and plot transition
@@ -25,7 +25,8 @@ sidebar:
 - study toefl for T(R/L) T(S/W) SS(V)
 - exercise MWF
 
-# For research
+## For my research
+
 ```shell
 # metal-insulator
 runnrg1to4 200 1.16 1.15 15.0 && \
@@ -39,16 +40,16 @@ runnrg1to4 200 1.23 1.22 15.0 && \
 runnrg1to4 200 1.24 1.23 15.0 && \
 runnrg1to4 200 1.25 1.24 15.0
 # insulator-metal
-runnrg4to1 200 2.29 2.3  20.0 && \
-runnrg4to1 200 2.28 2.29 20.0 && \
-runnrg4to1 200 2.27 2.28 20.0 && \
-runnrg4to1 200 2.26 2.27 20.0 && \
-runnrg4to1 200 2.25 2.26 20.0 && \
-runnrg4to1 200 2.24 2.25 20.0 && \
-runnrg4to1 200 2.23 2.24 20.0 && \
-runnrg4to1 200 2.22 2.23 20.0 && \
-runnrg4to1 200 2.21 2.22 20.0 && \
-runnrg4to1 200 2.2  2.21 20.0
+runnrg4to1 200 2.19 2.2  20.0 && \
+runnrg4to1 200 2.18 2.19 20.0 && \
+runnrg4to1 200 2.17 2.18 20.0 && \
+runnrg4to1 200 2.16 2.17 20.0 && \
+runnrg4to1 200 2.15 2.16 20.0 && \
+runnrg4to1 200 2.14 2.15 20.0 && \
+runnrg4to1 200 2.13 2.14 20.0 && \
+runnrg4to1 200 2.12 2.13 20.0 && \
+runnrg4to1 200 2.11 2.12 20.0 && \
+runnrg4to1 200 2.1  2.11 20.0
 ```
 
 * insulator-metal  
