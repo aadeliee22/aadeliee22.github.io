@@ -29,27 +29,27 @@ sidebar:
 
 ```shell
 # metal-insulator
-runnrg1to4 200 1.46 1.45 15.0 && \
-runnrg1to4 200 1.47 1.46 15.0 && \
-runnrg1to4 200 1.48 1.47 15.0 && \
-runnrg1to4 200 1.49 1.48 15.0 && \
-runnrg1to4 200 1.5  1.49 15.0 && \
-runnrg1to4 200 1.51 1.5  15.0 && \
-runnrg1to4 200 1.52 1.51 15.0 && \
-runnrg1to4 200 1.53 1.52 15.0 && \
-runnrg1to4 200 1.54 1.53 15.0 && \
-runnrg1to4 200 1.55 1.54 15.0
+runnrg1to4 200 1.56 1.55 16.0 && \
+runnrg1to4 200 1.57 1.56 16.0 && \
+runnrg1to4 200 1.58 1.57 16.0 && \
+runnrg1to4 200 1.59 1.58 16.0 && \
+runnrg1to4 200 1.5  1.59 16.0 && \
+runnrg1to4 200 1.41 1.4  16.0 && \
+runnrg1to4 200 1.42 1.41 16.0 && \
+runnrg1to4 200 1.43 1.42 16.0 && \
+runnrg1to4 200 1.44 1.43 16.0 && \
+runnrg1to4 200 1.45 1.44 16.0
 # insulator-metal
-runnrg4to1 200 1.99 2.0  18.0 && \
-runnrg4to1 200 1.98 1.99 18.0 && \
-runnrg4to1 200 1.97 1.98 18.0 && \
-runnrg4to1 200 1.96 1.97 18.0 && \
-runnrg4to1 200 1.95 1.96 18.0 && \
-runnrg4to1 200 1.94 1.95 18.0 && \
-runnrg4to1 200 1.93 1.94 18.0 && \
-runnrg4to1 200 1.92 1.93 18.0 && \
-runnrg4to1 200 1.91 1.92 18.0 && \
-runnrg4to1 200 1.9  1.91 18.0
+runnrg4to1 200 1.89 1.9  20.0 && \
+runnrg4to1 200 1.88 1.89 20.0 && \
+runnrg4to1 200 1.87 1.88 20.0 && \
+runnrg4to1 200 1.86 1.87 20.0 && \
+runnrg4to1 200 1.85 1.86 20.0 && \
+runnrg4to1 200 1.84 1.85 20.0 && \
+runnrg4to1 200 1.83 1.84 20.0 && \
+runnrg4to1 200 1.82 1.83 20.0 && \
+runnrg4to1 200 1.81 1.82 20.0 && \
+runnrg4to1 200 1.8  1.81 20.0
 ```
 
 * insulator-metal  
