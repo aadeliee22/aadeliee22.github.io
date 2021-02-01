@@ -58,9 +58,12 @@ from 4.0: 10.0
 from 2.99: 12  
 from 2.62: 15  
 from 2.49: 20  
+from 1.59: 18
 > transition: 2.3
 
 * metal-insulator  
-from 1.0: 12.0  
-from 1.16: 15.0  
+from 1.0: 12  
+from 1.16: 15  
+from 1.56: 16  
+from 1.86: 18
 > transition:
