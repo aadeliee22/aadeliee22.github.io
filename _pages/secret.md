@@ -65,6 +65,6 @@ from 1.23: 25
 from 1.0: 12  
 from 1.16: 15  
 from 1.56: 16  
-from 1.86: 18
+from 1.86: 18  
 from 2.3: 20
 > transition:
