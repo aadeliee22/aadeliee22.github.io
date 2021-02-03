@@ -63,7 +63,6 @@ from 1.23: 12
 
 * metal-insulator  
 from 1.0: 12  
-from 1.16: 15  
 from 1.56: 16   
 from 2.3: 20
 > transition:
