@@ -52,22 +52,9 @@ runnrg4to1 200 1.8  1.81 20.0
 ```
 
 * insulator-metal  
-T = 0.01    
-from 4.0: 10.0  
-from 2.99: 12  
-from 2.62: 15  
-from 2.49: 20  
-from 1.23: 12
-> transition: 2.3  
-
-T = 0.001
-from 
+> T = 0.01, transition: 2.3  
+> T = 0.001, transition:  
 
 * metal-insulator  
-T = 0.01  
-from 1.0: 10  
-> transition:  
-
-T = 0.001  
-from 1.0: 10  
-> transition:
+> T = 0.01, transition:  
+> T = 0.001, transition:  
