@@ -59,6 +59,7 @@ from 2.62: 15
 from 2.49: 20  
 from 1.23: 12
 > transition: 2.3  
+
 T = 0.001
 from 
 
@@ -66,6 +67,7 @@ from
 T = 0.01  
 from 1.0: 10  
 > transition:  
+
 T = 0.001  
 from 1.0: 10  
 > transition:
