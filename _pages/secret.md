@@ -13,17 +13,16 @@ sidebar:
 ## To do list
 
 ### NRG solver
-* obtaining data of metal -- insulator and plot transition
-* study DMFT, hybridization function, self energy
-* plot `S_w_imag`
-* another temperature for $\beta$ = 10000
+* obtaining data of metal -- insulator and plot transition + another temperature for $\beta$ = 10000
+* start to make NN
+* study IPT and make code
 
 ### other things
-* bring cookies
+* sign up for class 2/15
 
 ### routine
 - study toefl for T(R/L) T(S/W) SS(V)
-- exercise MWF
+- exercise MWS
 
 ## For my research
 
@@ -53,16 +52,20 @@ runnrg4to1 200 1.8  1.81 20.0
 ```
 
 * insulator-metal  
-at 2.99, keepE = 10 : 100 cycle/ 12: 5 cycle/ 15~20: 4 cycle  
+T = 0.01    
 from 4.0: 10.0  
 from 2.99: 12  
 from 2.62: 15  
 from 2.49: 20  
 from 1.23: 12
-> transition: 2.3
+> transition: 2.3  
+T = 0.001
+from 
 
 * metal-insulator  
-from 1.0: 12  
-from 1.56: 16   
-from 2.3: 20
+T = 0.01  
+from 1.0: 10  
+> transition:  
+T = 0.001  
+from 1.0: 10  
 > transition:
