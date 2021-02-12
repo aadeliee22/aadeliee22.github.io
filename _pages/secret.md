@@ -46,5 +46,5 @@ nrg14_0.01 1.4  1.39 10.0 0.75
 > T = 0.001, transition:  
 
 * metal-insulator  
-> T = 0.01, transition:  
-> T = 0.001, transition:  
+> T = 0.01, transition: 2.37
+> T = 0.001, transition: 2.57
