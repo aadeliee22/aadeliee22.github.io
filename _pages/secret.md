@@ -15,9 +15,11 @@ sidebar:
 ### DMFT
 * ~~obtaining data of metal -- insulator and plot transition + another temperature for $\beta$ = 1000~~
 * ~~start to make NN~~
+* make NN in frequency domain
 * study IPT and make code: <https://github.com/sprudel/DMFT>
 
 ### other things
+* photo this Fri.
 * dental clinic 2/23
 
 ### routine
