@@ -13,18 +13,10 @@ sidebar:
 ## To do list
 
 ### DMFT
-* ~~obtaining data of metal -- insulator and plot transition + another temperature for $\beta$ = 1000~~
-* ~~start to make NN~~
-* make NN in frequency domain
-* study IPT and make code: <https://github.com/sprudel/DMFT>
-
-### other things
-* photo this Fri.
-* dental clinic 2/23
-
-### routine
-- study toefl for T(R/L) T(S/W) SS(V)
-- exercise MWS
+* study IPT and make code: <https://github.com/sprudel/DMFT>, <https://github.com/Titan-C/pydmft>
+* double occupancy
+### MLDL
+* <https://arxiv.org/pdf/1905.11946.pdf>
 
 ## For my research
 > T = 0.01, transition: 2.20, 2.37  
