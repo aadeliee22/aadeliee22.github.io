@@ -21,3 +21,22 @@ sidebar:
 ## For my research
 > T = 0.01, transition: 2.20, 2.37  
 > T = 0.001, transition: 2.20, 2.57
+
+
+import matplotlib as mpl
+mpl.rcParams.update({
+    'font.family' : 'STIXGeneral',
+    'mathtext.fontset' : 'stix',
+    'xtick.direction' : 'in' ,
+    'xtick.labelsize' : 13 ,
+    'xtick.top' : True ,
+    'ytick.direction' : 'in' ,
+    'ytick.labelsize' : 13 ,
+    'ytick.right' : True ,
+    'axes.labelsize' : 16,
+    'legend.frameon' : False,
+    'legend.fontsize' : 13,
+    'legend.handlelength' : 1.5,
+    'savefig.dpi' : 600, 
+    'savefig.bbox' : 'tight'
+})
