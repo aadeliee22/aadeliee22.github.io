@@ -16,42 +16,33 @@ This website is to list what I have done.
 ## Timeline
 
 ### 2021
-- 21-1
-   * Learning DMFT method and Machine learning technique(PyTorch) to predicy metal-insulator transition point using Bath orbitals
+- 21-spring/summer
+   * Machine-learning assisted prediction of Mott transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. <https://github.com/aadeliee22/Hubbard_NN>
 
 ### 2020
-- 20-1
+- 20-spring
   * Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
   * Teaching Assistant for <ins>General Physics</ins>
-- 20-1.5
+- 20-summer
   * Summer Undergraduate Research Fellowship: 
   Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
-- 20-2
+- 20-fall
   * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
 
 ### 2019
-- 19-1
+- 19-spring
   * Physics & Math Seminar: Coanda effect presentation
   * Physics club president
-- 19-1.5
+- 19-summer
   * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
-- 19-2.5
+- 19-winter
   * AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
 ### 2018 
-- 18-2.5
+- 18-winter
   * Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
 
 ### 2016-7
   * KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
   * Research & Education: Stability of liquid surface in condition of human walking
 
-
-#### Detail
-The categories are classified by time. I have counted each year's start as March.
-- 2000-1 : spring semester, March 1 ~ June 31 2000.
-- 2000-1.5 : summer semester, July 1 ~ August 31 2000.
-- 2000-2 : fall semester, September 1 ~ December 31 2000.
-- 2000-2.5 : winter semester, January 1 ~ February 28 2001.
-
-For other miscellaneous things, it is classified as 'trivial'. (According to the Nobel Prize-winning physicist Richard Feynman (Feynman 1997), mathematicians designate any theorem as "trivial" once a proof has been obtained--no matter how difficult the theorem was to prove in the first place. There are therefore exactly two types of true mathematical propositions: trivial ones, and those which have not yet been proven. [Trivial](https://mathworld.wolfram.com/Trivial.html).)
