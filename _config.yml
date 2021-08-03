@@ -96,7 +96,7 @@ author:
   name             : "aadeliee"
   avatar           : "/assets/images/cmb.jpeg"
   bio              : "Undergraduate: Physics major & Math minor"
-  location         : "Republic of Korea"
+  location         : "GIST, Gwangju, Republic of Korea"
   email            : "aadeliee@gm.gist.ac.kr"
   links:
     - label: "Email"
@@ -116,7 +116,7 @@ author:
       url: "https://github.com/aadeliee22"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://www.instagram.com/spiral2236/"
 
 # Site Footer
 footer:
