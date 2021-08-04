@@ -6,7 +6,7 @@ date: 2020-12-24 18:07:00
 categories: 
   - Physics
 tags: 
-  - 2020-fall
+  - 2020-2 (fall)
 use_math: true
 ---
 
