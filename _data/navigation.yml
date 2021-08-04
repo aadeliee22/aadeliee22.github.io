@@ -11,11 +11,11 @@ docs:
     url: /categories/
     children:
       - title: "Physics (research)"
-        url: /categories/physics-research/
+        url: /categories/#physics-research/
       - title: "Physics (course)"
-        url: /categories/physics-course/
+        url: /categories/#physics-course/
       - title: "Physics (etc)"
-        url: /categories/physics-etc/
+        url: /categories/#physics-etc/
   - title: "Tag"
     url: /tags/
   - title: "About"
