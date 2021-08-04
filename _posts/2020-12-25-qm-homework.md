@@ -6,7 +6,7 @@ date: 2020-12-26 00:01:00
 categories: 
   - Physics
 tags: 
-  - 2020-spring
+  - 2020-1 (spring)
 use_math: true
 ---
 
