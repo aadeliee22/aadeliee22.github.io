@@ -4,7 +4,7 @@ toc: true
 toc_sticky: true
 date: 2020-12-24 18:07:00
 categories: 
-  - Physics
+  - Physics (course)
 tags: 
   - 2020-2 (fall)
 use_math: true
