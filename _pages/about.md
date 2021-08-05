@@ -43,6 +43,10 @@ This website is to list what I have done. Here is my [CV](https://www.overleaf.c
 ### 2020
 - 20-fall
   * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>. ([summary](https://aadeliee22.github.io/physics%20(course)/tsp-presentation/))
+  * Experimental Physics
+      
+      <center><img src="/assets/images/2_1.png" width="50%" height="50%"></center>
+      
 - 20-summer
   * Summer Undergraduate Research Fellowship (G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning Monte-Carlo ([github](https://github.com/aadeliee22/MCM), [summary_slmc](https://aadeliee22.github.io/physics%20(research)/slmc/), [summary_ising](https://aadeliee22.github.io/physics%20(research)/ising/))
       
