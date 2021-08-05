@@ -10,6 +10,8 @@ tags:
 use_math: true
 ---
 
+This page is for the summary of my presentation on course "Thermal & Statistical Physics". Actual presentation in [here](https://www.overleaf.com/read/bcvtfwnjgzmd).
+
 ## Classical Ising model
 
 For the simplest Ising model for spin-1/2, the energy configuration is given by Hamiltonian.
@@ -199,4 +201,7 @@ Since the partition function is the summation of all eigenvalues of transfer mat
    Eigenvalues accumulate at some point, which is, other small eigenvalues cannot be ignored.  
    In quantum version, other energy levels get close to ground state, making gap-less state. Interesting!
 
-
+## Reference
+1. L. E. Reichl, [A Modern Course in Statistical Physics](https://doi.org/10.1002/9783527690497.ch4), John Wiley Sons, Ltd (2016)
+2. [Transverse-field Ising model [online]](https://en.wikipedia.org/wiki/Transverse-field_Ising_model) (accessed: 2020.12.03)
+3. J. McGreevy, [Where do quantu field theories come from?](https://mcgreevy.physics.ucsd.edu/f16), UCSD (2016)
