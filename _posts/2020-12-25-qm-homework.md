@@ -129,8 +129,8 @@ On the other hand, the well's depth almost has no effect on lower-energy states.
 Also, finite harmonic well allows broad range of region for electron especially when energy gets higher. This can be easily guessed, as energy difference gets smaller in finite well.
 
 ## Reference
-1. G. B. Arfken and H.-J. Weber, Mathematical methods for physicists. Amsterdam: Elsevier Acad. Press, 2011.
-2. D. J. Griffiths and D. F. Schroeter, Introduction to quantum mechanics. Cambridge: Cambridge University Press, 2019.
-3. “Parabolic cylinder function,” Wikipedia, 25-Mar-2019. [Online]. Available: <https://en.wikipedia.org/wiki/Parabolic_cylinder_function>.
-4. W.-P. Yuen, “Exact analytic analysis of finite parabolic quantum wells with and without a static electric field,” Physical Review B, vol. 48, no. 23, pp. 17316–17320, 1993.
+1. G. B. Arfken and H.-J. Weber, Mathematical methods for physicists. Elsevier Acad. Press (2011)
+2. D. J. Griffiths and D. F. Schroeter, Introduction to quantum mechanics. Cambridge University Press (2019)
+3. “[Parabolic cylinder function](https://en.wikipedia.org/wiki/Parabolic_cylinder_function)” Wikipedia, (Accessed: 2019.03.2)
+4. W.-P. Yuen, [Exact analytic analysis of finite parabolic quantum wells with and without a static electric field](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.48.17316) Phys. Rev. B, vol. 48, no. 23 (1993)
 
