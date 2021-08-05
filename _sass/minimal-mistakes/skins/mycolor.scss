@@ -5,11 +5,11 @@
 /* Colors */
 $background-color: #ffffff !default;
 $text-color: #090833 !default;
-$muted-text-color: #08453a !default;
+$muted-text-color: #143A33 !default;
 $primary-color: #3e1057 !default;
 $border-color: mix(#fff, #090833, 75%) !default;
-$footer-background-color: #341057 !default;
-$link-color: #09ab8d !default;
+$footer-background-color: #381057 !default;
+$link-color: #106e5d !default;
 $masthead-link-color: #341769 !default;
 $masthead-link-color-hover: #341769 !default;
 $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
@@ -24,5 +24,5 @@ $navicon-link-color-hover: mix(#fff, $text-color, 80%) !default;
 }
 
 .page__title{
-  color: #106e5d;
+  color: #0d473d;
 }
