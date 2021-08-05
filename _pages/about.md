@@ -29,7 +29,7 @@ This website is to list what I have done. Here is my [CV](https://www.overleaf.c
 
       <center><img src="/assets/images/DMFTNN/flow.png" width="50%" height="50%"></center>
 
-      <center><img src="/assets/images/DMFTNN/output_matsubara.png" width="50%" height="50%"></center>
+      <center><img src="/assets/images/DMFTNN/result_Matsubara.png" width="50%" height="50%"></center>
       
       <center><img src="/assets/images/DMFTNN/fig3_weightmap.png" width="50%" height="50%"></center>
      
