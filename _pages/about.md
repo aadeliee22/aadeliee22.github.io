@@ -11,23 +11,33 @@ sidebar:
 ---
 
 ## Introduction
-This website is to list what I have done.
+This website is to list what I have done. Here is my [CV1](https://www.overleaf.com/read/ngdpxtzhtmwz), for more detailed informations.
+
+### Research interest
+- Condensed matter theory (CMT)
+   * Strongly correlated systems
+   * Topological phase, insulator
+- Computational Many-body physics
+- Implementation of Machine learning; Neural networks
+
 
 ## Timeline
 
 ### 2021
+- 21-summer
+   * Machine-learning assisted prediction of metal-insulator transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. <https://github.com/aadeliee22/Hubbard_NN>
 - 21-spring/summer
-   * Machine-learning assisted prediction of Mott transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. <https://github.com/aadeliee22/Hubbard_NN>
+   * Undergraduate thesis 1: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
+   * Teaching Assistant for <ins>General Physics</ins>
 
 ### 2020
+- 20-fall
+  * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
+- 20-summer
+  * Summer Undergraduate Research Fellowship(G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
 - 20-spring
   * Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
   * Teaching Assistant for <ins>General Physics</ins>
-- 20-summer
-  * Summer Undergraduate Research Fellowship: 
-  Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
-- 20-fall
-  * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
 
 ### 2019
 - 19-spring
