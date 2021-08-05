@@ -11,7 +11,7 @@ sidebar:
 ---
 
 ## Introduction
-This website is to list what I have done. Here is my [CV](https://www.overleaf.com/read/ngdpxtzhtmwz), for more detailed informations.
+This website is to list what I have done. Here is my [<ins>CV</ins>](https://www.overleaf.com/read/ngdpxtzhtmwz), for more detailed informations.
 
 ### Research interest
 - Condensed matter theory (CMT)
