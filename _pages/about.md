@@ -26,8 +26,15 @@ This website is to list what I have done. Here is my [CV](https://www.overleaf.c
 ### 2021
 - 21-summer
    * Machine-learning assisted prediction of metal-insulator transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
+
+<center><img src="/assets/images/DMFTNN/flow.png" width="50%" height="50%"></center>
+<center><img src="/assets/images/DMFTNN/fig3_weightmap.png" width="50%" height="50%"></center>
+
 - 21-spring
    * Undergraduate thesis 1: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
+
+<center><img src="/assets/images/DMFTNN/betaall.png" width="50%" height="50%"></center>
+
    * Teaching Assistant for <ins>General Physics</ins>
 
 ### 2020
