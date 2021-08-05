@@ -48,7 +48,7 @@ This website is to list what I have done. Here is my [***CV***](https://www.over
       <center><img src="/assets/images/2_1.png" width="50%" height="50%"></center>
       
 - 20-summer
-  * Summer Undergraduate Research Fellowship (G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning Monte-Carlo ([github](https://github.com/aadeliee22/MCM), ([summary_slmc](https://aadeliee22.github.io/physics%20(research)/slmc/), [summary_ising](https://aadeliee22.github.io/physics%20(research)/ising/))
+  * Summer Undergraduate Research Fellowship (G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning Monte-Carlo ([github](https://github.com/aadeliee22/MCM), [summary_slmc](https://aadeliee22.github.io/physics%20(research)/slmc/), [summary_ising](https://aadeliee22.github.io/physics%20(research)/ising/))
       
       <center><img src="/assets/images/ising_pic/IV_1_2_3.png" width="50%" height="50%"></center>
       
