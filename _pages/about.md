@@ -34,7 +34,6 @@ This website is to list what I have done. Here is my [CV](https://www.overleaf.c
    * Undergraduate thesis 1: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
 
 <center><img src="/assets/images/DMFTNN/betaall.png" width="50%" height="50%"></center>
-
    * Teaching Assistant for <ins>General Physics</ins>
 
 ### 2020
