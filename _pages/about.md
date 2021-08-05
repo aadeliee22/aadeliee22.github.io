@@ -34,7 +34,7 @@ This website is to list what I have done. Here is my [***CV***](https://www.over
       <center><img src="/assets/images/DMFTNN/fig3_weightmap.png" width="50%" height="50%"></center>
      
 - 21-spring
-   * ***Undergraduate thesis 1***: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
+   * <ins>*Undergraduate thesis 1*</ins>: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
       
       <center><img src="/assets/images/DMFTNN/betaall.png" width="40%" height="40%"></center>
    
