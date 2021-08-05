@@ -11,7 +11,7 @@ sidebar:
 ---
 
 ## Introduction
-This website is to list what I have done. Here is my [CV1](https://www.overleaf.com/read/ngdpxtzhtmwz), for more detailed informations.
+This website is to list what I have done. Here is my [CV](https://www.overleaf.com/read/ngdpxtzhtmwz), for more detailed informations.
 
 ### Research interest
 - Condensed matter theory (CMT)
@@ -26,7 +26,7 @@ This website is to list what I have done. Here is my [CV1](https://www.overleaf.
 ### 2021
 - 21-summer
    * Machine-learning assisted prediction of metal-insulator transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. <https://github.com/aadeliee22/Hubbard_NN>
-- 21-spring/summer
+- 21-spring
    * Undergraduate thesis 1: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
    * Teaching Assistant for <ins>General Physics</ins>
 
@@ -34,25 +34,25 @@ This website is to list what I have done. Here is my [CV1](https://www.overleaf.
 - 20-fall
   * Quantum Ising model presentation in <ins>Thermodynamics & Statistical physics</ins>
 - 20-summer
-  * Summer Undergraduate Research Fellowship(G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning-MonteCarlo, <https://github.com/aadeliee22/MCM>
+  * Summer Undergraduate Research Fellowship (G-SURF): Markov-chain-MonteCarlo method and Ising model + Self-learning Monte-Carlo, <https://github.com/aadeliee22/MCM>
 - 20-spring
   * Exact solution for finite harmonic oscillator in <ins>Quantum Mechanics 1</ins>
   * Teaching Assistant for <ins>General Physics</ins>
 
 ### 2019
+- 19-winter
+  * AdS-CFT with deep learning: Python & Tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
+- 19-summer
+  * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 - 19-spring
   * Physics & Math Seminar: Coanda effect presentation
   * Physics club president
-- 19-summer
-  * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
-- 19-winter
-  * AdS-CFT with deep learning: python & tensorflow: <https://github.com/aadeliee22/DL-AdS-CFT>
 
 ### 2018 
 - 18-winter
-  * Physical Biology of the Cell: <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
+  * Caltech collaboration course, Physical Biology of the Cell (PBoC): <http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html> 
 
 ### 2016-7
-  * KYPT: Fast chain, Spiral wave, Torsion gyroscope was my subject.
+  * Korean Youth Physicists' Tournament (KYPT): Fast chain, Spiral wave, Torsion gyroscope was my subject.
   * Research & Education: Stability of liquid surface in condition of human walking
 
