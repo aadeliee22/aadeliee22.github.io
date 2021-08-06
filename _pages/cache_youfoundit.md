@@ -1,5 +1,5 @@
 ---
-title: "Page for additional material"
+title: "Page only for ME"
 permalink: /secret/
 toc: true
 toc_sticky: true
@@ -10,9 +10,9 @@ sidebar:
    nav: docs
 ---
 
-## To do list
+This page is a cache.
 
-### Matplotlib 
+### Matplotlib format
 
 ```python
 import matplotlib as mpl
@@ -42,23 +42,6 @@ mpl.rcParams.update({
 })
 import matplotlib.ticker as ticker
 from mpl_toolkits.axes_grid1.inset_locator import inset_axes
-```
-
-### Visualization of Weight matrix
-```python
-def dat2f(datw, rw):
-    for i, w in enumerate(datw):
-        if rw < w: break
-    a = (w-rw) / (w-datw[i-1])
-    return i, a
-for i,wq in enumerate(weq):
-    weqind[i], weqalp[i] = dat2f(w.real, wq)
-    
-def G2Geq(datG, rw):
-    Giweq = np.zeros_like(weq)
-    for i,wqind in enumerate(weqind):
-        Giweq[i] = datG[wqind]*(1-weqalp[i]) + datG[wqind-1]*weqalp[i]
-    return Giweq
 ```
 
 * IPT code : <https://github.com/sprudel/DMFT>, <https://github.com/Titan-C/pydmft>
