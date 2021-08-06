@@ -1,6 +1,6 @@
 ---
 title: "Page only for ME"
-permalink: /cache_youfoundmysecretplace/
+permalink: /cache_hjk/
 toc: true
 toc_sticky: true
 toc_ads : true
