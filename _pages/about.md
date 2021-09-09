@@ -60,19 +60,22 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 ## Others: 
 presentations / courses / teaching experiences / etc...
 ### 2021
+- 21-fall
+   * Teaching Assistant for <ins>*General Physics I*</ins> in English
+   * 
 - 21-spring
-   * Teaching Assistant for <ins>*General Physics*</ins>
+   * Teaching Assistant for <ins>*General Physics I*</ins>
 
 ### 2020
 - 20-fall
-  * Presentation in <ins>*Thermodynamics & Statistical physics*</ins>: Quantum Ising model ([summary](https://aadeliee22.github.io/physics%20(course)/tsp-presentation/))
+  * Presentation in <ins>*Thermal & Statistical Physics*</ins>: Transverse-field Ising model ([summary](https://aadeliee22.github.io/physics%20(course)/tsp-presentation/))
       
 - 20-spring
-  * Project in <ins>*Quantum Mechanics 1*</ins>: Exact solution for finite harmonic oscillator ([summary](https://aadeliee22.github.io/physics%20(course)/qm-homework/))
+  * Project in <ins>*Quantum Physics I*</ins>: Exact solution of finite harmonic oscillator ([summary](https://aadeliee22.github.io/physics%20(course)/qm-homework/))
 
       <center><img src="/assets/images/mid-3.PNG" width="50%" height="50%"></center>
 
-  * Teaching Assistant for <ins>*General Physics*</ins>
+  * Teaching Assistant for <ins>*General Physics I*</ins>
 
 ### 2019
 - 19-summer
