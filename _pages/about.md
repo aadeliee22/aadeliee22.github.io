@@ -23,7 +23,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 - Gwangju Institute of Science & Technology ([GIST college](https://www.gist.ac.kr/kr/main.html))
    * B.S. Physics major, Mathematics minor
    * GPA: 4.21/4.5, Major GPA: 4.47/4.5
-- [Boston University](#2019), summer session
+- [Boston University](#2019-1), summer session
    * GPA: 4.0/4.0 (Statistics & Probability, Mocroeconomic Analysis)
 - [Caltec-GIST collaboration course](#2018)
    * Instructor: prof. Rob Phillips
@@ -70,20 +70,21 @@ presentations / courses / teaching experiences / etc...
 ### 2021
 - 21-fall
    * Teaching Assistant for <ins>*General Physics I*</ins> in English
-   * 
+
 - 21-spring
    * Teaching Assistant for <ins>*General Physics I*</ins>
+   * Project on <ins>*Machine learning & Deep learning*</ins>: implementing neural network classifier for CIFAR100 dataset on Kaggle
 
 ### 2020
 - 20-fall
   * Presentation in <ins>*Thermal & Statistical Physics*</ins>: Transverse-field Ising model ([summary](https://aadeliee22.github.io/physics%20(course)/tsp-presentation/))
       
 - 20-spring
+  * Teaching Assistant for <ins>*General Physics I*</ins>
   * Project in <ins>*Quantum Physics I*</ins>: Exact solution of finite harmonic oscillator ([summary](https://aadeliee22.github.io/physics%20(course)/qm-homework/))
 
       <center><img src="/assets/images/mid-3.PNG" width="50%" height="50%"></center>
 
-  * Teaching Assistant for <ins>*General Physics I*</ins>
 
 ### 2019
 - 19-summer
