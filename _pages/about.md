@@ -30,10 +30,14 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
       
       <center><img src="/assets/images/DMFTNN/fig3.png" width="70%" height="70%"></center>
       
+      <center><img src="/assets/images/DMFTNN/fig5.png" width="70%" height="70%"></center>
+      
 - 21-spring
    * <ins>*Undergraduate thesis 1*</ins>: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
       
-      <center><img src="/assets/images/DMFTNN/betaall.png" width="40%" height="40%"></center>
+      <center><img src="/assets/images/DMFTNN/fig1.png" width="60%" height="60%"></center>
+      
+      <center><img src="/assets/images/DMFTNN/betaall.png" width="60%" height="60%"></center>
 
 
 
