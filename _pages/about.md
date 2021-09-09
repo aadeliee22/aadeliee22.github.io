@@ -66,9 +66,6 @@ presentations / courses / teaching experiences / etc...
 ### 2020
 - 20-fall
   * Presentation in <ins>*Thermodynamics & Statistical physics*</ins>: Quantum Ising model ([summary](https://aadeliee22.github.io/physics%20(course)/tsp-presentation/))
-  * Project in <ins>*Experimental Physics*</ins>
-      
-      <center><img src="/assets/images/2_1.png" width="50%" height="50%"></center>
       
 - 20-spring
   * Project in <ins>*Quantum Mechanics 1*</ins>: Exact solution for finite harmonic oscillator ([summary](https://aadeliee22.github.io/physics%20(course)/qm-homework/))
