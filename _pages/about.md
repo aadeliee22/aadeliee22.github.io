@@ -11,7 +11,7 @@ sidebar:
 ---
 
 ## Introduction
-This website is to list what I have done. Here is my [***CV***](https://aadeliee22.github.io/assets/files/CV_Hyejin_Kim_read.pdf), for more detailed informations.
+This website is to list what I have done. Here is my [***CV***](https://aadeliee22.github.io/assets/files/CV_HyejinKim.pdf), for more detailed informations.
 
 ### Research interest
 - Condensed matter theory (CMT)
@@ -24,7 +24,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 ## Research Experience
 ### 2021
 - 21-summer
-   * Machine-learning assisted prediction of metal-insulator transition in DMFT. Finding order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain. Currently writing a paper. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
+   * Machine-learning assisted prediction of metal-insulator transition in DMFT. Analyzing the network parameter to find order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain, based on the bath orbitals from DMFT-ED. Currently working on publication. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
 
       <center><img src="/assets/images/DMFTNN/flow.png" width="50%" height="50%"></center>
 
