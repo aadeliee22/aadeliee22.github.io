@@ -15,10 +15,18 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 
 ### Research interest
 - Condensed matter theory (CMT)
-   * Strongly correlated systems
-   * Topological phase, insulator
+   * Strongly correlated systems, Topological phase & insulator
 - Computational Many-body physics
 - Implementation of Machine learning; Neural networks
+
+### Education
+- Gwangju Institute of Science & Technology ([GIST college](https://www.gist.ac.kr/kr/main.html))
+   * B.S. Physics major, Mathematics minor
+   * GPA: 4.21/4.5, Major GPA: 4.47/4.5
+- [Boston University](www.bu.edu), summer session
+   * GPA: 4.0/4.0 (Statistics & Probability, Mocroeconomic Analysis)
+- [Caltec-GIST collaboration course](#2018)
+   * Instructor: prof. Rob Phillips
 
 
 ## Research Experience
@@ -57,7 +65,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
   * AdS-CFT with deep learning: Python & Tensorflow ([github](https://github.com/aadeliee22/DL-AdS-CFT))
 
 
-## Others: 
+## Extra: Presentations, Projects, TA... 
 presentations / courses / teaching experiences / etc...
 ### 2021
 - 21-fall
@@ -91,4 +99,7 @@ presentations / courses / teaching experiences / etc...
 ### 2016-7
   * Korean Youth Physicists' Tournament (KYPT): Fast chain, Spiral wave, Torsion gyroscope was my subject.
   * Research & Education program: Stability of liquid surface in condition of human walking
+
+
+## 
 
