@@ -22,9 +22,8 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 ### Education
 - Gwangju Institute of Science & Technology ([GIST college](https://www.gist.ac.kr/kr/main.html))
    * B.S. Physics major, Mathematics minor
-   * GPA: 4.21/4.5, Major GPA: 4.47/4.5
 - [Boston University](#2019-1), summer session
-   * GPA: 4.0/4.0 (Statistics & Probability, Mocroeconomic Analysis)
+   * Statistics & Probability, Mocroeconomic Analysis
 - [Caltec-GIST collaboration course](#2018)
    * Instructor: prof. Rob Phillips
 
