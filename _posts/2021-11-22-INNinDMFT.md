@@ -66,9 +66,9 @@ Finally, calculated phase transition points $U_{c1}\sim2.3$ and $U_{c2}\sim2.9$.
 
 During DMFT procedure, hybridization function is used for reproducing lattice dynamics, 
 as it is closely related to the dynamics of the electrons and the bath of the impurity by bath parameters.
-We calculated the hybridization function under logarithmic discretization mesh~(frequency) ratio of $\lambda=1.01$ spanning from $|\omega|_{\min}=10^{-5}$ to $|\omega|_{\max}=5.0$. 
+We calculated the hybridization function under logarithmic discretization mesh~(frequency) ratio of $\lambda=1.01$ spanning from $|\omega|_{min}=10^{-5}$ to $|\omega|_{max}=5.0$. 
 For the NRG calculation parameters, we set logarithmic discretization parameter $\Lambda=2.0$, the number of interleaved discretization grids $N_z=4$, 
-the lowest temperature scale of Wilson chain $T_{\min}=10^{-6}$, and the truncated rescale energy cutoff $12.0$ for the good convergence. 
+the lowest temperature scale of Wilson chain $T_{min}=10^{-6}$, and the truncated rescale energy cutoff $12.0$ for the good convergence. 
 
 
 ### Artificial neural network to learn the spectral features
@@ -85,7 +85,7 @@ $$
 \mathbf{P}=\sigma(\mathbf{z}),
 $$
 where each $\mathbf{W}^{(i)}$ and $\mathbf{b}^{(i)}$ are the weight matrix and the bias vector, 
-and $\mathbf{P}$ is the output vector of our model which is $\mathbc{P}=(P_\text{metal},P_\text{insulator})^\mathbf{T}$.
+and $\mathbf{P}$ is the output vector of our model which is $\mathbf{P}=(P_\text{metal},P_\text{insulator})^\mathbf{T}$.
 
 The neural network is trained with the hybridization function on the real frequency axis obtained by DMFT-NRG.
 The training set consists of the data in the Bethe lattice under half-filling for a given range of on-site interactions 
