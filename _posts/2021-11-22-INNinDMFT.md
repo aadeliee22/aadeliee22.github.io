@@ -116,13 +116,11 @@ $$
 \end{aligned}
 $$
 
-where $\mathbf{W}^{(1)}_{Re}$ and $\mathbf{W}^{(1)}_{Im}$ are the weight matrices correspond to the real and the imaginary part of the hybridization function each. 
-
 <center><img src="/assets/images/DMFTNN2/fig3.png" width="100%" height="100%"></center>
 
 Above figure presents the behavior of the weight matrix of the Logistic regression corresponding for the real and the imaginary part of the hybridization function. 
 We aim to look into the vicinity of the zero frequency $\omega\simeq0$ due to the concentration of data near this point. 
-Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W}^{(1)}_{Re}\sim-\alpha\omega$ and $\mathbf{W}^{(1)}_{Im}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
+Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W}_{Re}^{(1)}\sim-\alpha\omega$ and $\mathbf{W}_{Im}^{(1)}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
 $$
 \begin{aligned}
 \mathcal{O}&\simeq \int\frac{ d\omega}{|\omega|}(-\alpha\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{ d\omega}{|\omega|}(\beta-\gamma|\omega|)\sum_kV_k^2\delta(\omega-\epsilon_k)\\
