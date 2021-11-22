@@ -15,9 +15,9 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 
 ### Research interest
 - Condensed matter theory (CMT)
-   * Strongly correlated systems, Topological phase & insulator
-- Computational Many-body physics
-- Implementation of Machine learning; Neural networks
+   * Quantum Many-body system, Strongly correlated systems
+   * Topological phase & insulator
+   * Implementation of Machine learning; interpretable Neural networks
 
 ### Education
 - Gwangju Institute of Science & Technology ([GIST college](https://www.gist.ac.kr/kr/main.html))
@@ -31,13 +31,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 ## Research Experience
 ### 2021
 - 21-summer
-   * Machine-learning assisted prediction of metal-insulator transition in DMFT. Analyzing the network parameter to find order parameter that can be employed both to the real frequency domain and the Matsubara frequency domain, based on the bath orbitals from DMFT-ED. Currently working on publication. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
-
-      <center><img src="/assets/images/DMFTNN/fig2_2.png" width="70%" height="70%"></center>
-      
-      <center><img src="/assets/images/DMFTNN/fig3.png" width="70%" height="70%"></center>
-      
-      <center><img src="/assets/images/DMFTNN/fig5.png" width="70%" height="70%"></center>
+   * Interpretation on minimal neural network to learn the metal-insulator transition in the dynamical mean-field theory. Analyzing the network connectivity to find the system measure that can be employed to broader range beyond our specific setup, based on the few bath orbitals from DMFT-ED. Currently working on publication. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
       
 - 21-spring
    * <ins>*Undergraduate thesis 1*</ins>: Calculating the hybridization function on DMFT-NRG, trying to improve the accuracy of the metal-insulator transition points.
