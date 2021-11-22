@@ -111,8 +111,8 @@ Regarding this universality of weight patterns, we choose to investigate the Log
 $$
 \begin{aligned}
         \mathcal{O} &= \sum_n \left[\mathbf{W}^{(1)}_{Re, n}\text{Re}\left[\Gamma(\omega_n)\right] + \mathbf{W}^{(1)}_{Im, n}\text{Im}\left[\Gamma(\omega_n)\right]\right]\\
-        &\simeq \int\ud\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Re}(\omega)\text{Re}\left[\Gamma(\omega+i\eta)\right] + \int\ud\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Im}(\omega)\text{Im}\left[\Gamma(\omega+i\eta)\right]\\
-        &= \int\frac{\ud\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Re}(\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{\ud\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Im}(\omega)\sum_kV_k^2\delta(\omega-\epsilon_k),
+        &\simeq \int d\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Re}(\omega)\text{Re}\left[\Gamma(\omega+i\eta)\right] + \int d\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Im}(\omega)\text{Im}\left[\Gamma(\omega+i\eta)\right]\\
+        &= \int\frac{d\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Re}(\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{d\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Im}(\omega)\sum_kV_k^2\delta(\omega-\epsilon_k),
 \end{aligned}
 $$
 
@@ -125,8 +125,8 @@ We aim to look into the vicinity of the zero frequency $\omega\simeq0$ due to th
 Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W}^{(1)}_{Re}\sim-\alpha\omega$ and $\mathbf{W}^{(1)}_{Im}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
 $$
 \begin{aligned}
-\mathcal{O}&\simeq \int\frac{\ud\omega}{|\omega|}(-\alpha\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{\ud\omega}{|\omega|}(\beta-\gamma|\omega|)\sum_kV_k^2\delta(\omega-\epsilon_k)\\
-        &= -2\alpha\sum_k\int_{|\omega|_{\text{min}}}^{|\omega|_{\text{max}}}\frac{V_k^2}{\omega+|\epsilon_k|}\ud\omega + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-\gamma\sum_kV_k^2\\
+\mathcal{O}&\simeq \int\frac{ d\omega}{|\omega|}(-\alpha\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{ d\omega}{|\omega|}(\beta-\gamma|\omega|)\sum_kV_k^2\delta(\omega-\epsilon_k)\\
+        &= -2\alpha\sum_k\int_{|\omega|_{\text{min}}}^{|\omega|_{\text{max}}}\frac{V_k^2}{\omega+|\epsilon_k|} d\omega + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-\gamma\sum_kV_k^2\\
         &= -2\alpha\sum_k V_k^2\log\left(1+\frac{|\omega|_{\text{max}}-|\omega|_{\text{min}}}{|\epsilon_k|+|\omega_{\text{min}}|}\right) + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-\gamma\sum_kV_k^2\\
         &\simeq 2\alpha\sum_k V_k^2\log(|\epsilon_k|) + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-(\gamma+2\alpha\log(|\omega|_{\text{max}}-|\omega|_{\text{min}}))\sum_kV_k^2,
 \end{aligned}
