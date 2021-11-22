@@ -33,6 +33,12 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 - 21-fall
    * Interpretation on minimal neural network to learn the metal-insulator transition in the dynamical mean-field theory. Analyzing the network connectivity to find the system measure that can be employed to broader range beyond our specific setup, based on the few bath orbitals from DMFT-ED. Currently working on publication. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/INNinDMFT/))
 
+   <center><img src="/assets/images/DMFTNN2/fig1.png" width="60%" height="60%"></center>
+   
+   <center><img src="/assets/images/DMFTNN2/fig3.png" width="60%" height="60%"></center>
+   
+   <center><img src="/assets/images/DMFTNN2/fig4.png" width="60%" height="60%"></center>
+
 - 21-summer
    * Machine learning prediction of metal-insulator transition in DMFT Hubbard model ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/ML-DMFT/))
       
