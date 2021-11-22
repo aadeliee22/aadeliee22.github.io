@@ -2,12 +2,12 @@
 title: "Interpretation of a minimal neural network to learn the metal-insulator transition in the dynamical mean-field theory"
 toc: true
 toc_sticky: true
-date: 2021-08-03 20:07:00
+date: 2021-11-22 15:47:00
 categories: 
   - Physics (research)
 tags: 
-  - 2021-1 (spring)
   - 2021-1.5 (summer)
+  - 2021-2 (fall)
 use_math: true
 published : true
 ---
