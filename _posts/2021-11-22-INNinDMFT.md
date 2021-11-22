@@ -129,16 +129,16 @@ $$
         &\simeq 2\alpha\sum_k V_k^2\log(|\epsilon_k|) + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-(\gamma+2\alpha\log(|\omega|_{\text{max}}-|\omega|_{\text{min}}))\sum_kV_k^2,
 \end{aligned}
 $$
-where the last term is constant by the sum-rule of hopping elements $V_k$~\cite{sumrule}. 
-Therefore, we focus on first two terms to interpret the analytic behavior of the output of our neural network.
+where the last term is constant by the sum-rule of hopping elements $V_k$ of our neural network.
 
 ## Performance of the machine-learning-inspired phase indicator
-We examine Eq.~\eqref{eq:output2} based on the discrete model of few bath orbitals calculated by DMFT-ED, to figure out what our analysis indicates. 
+We examine the above equation based on the discrete model of few bath orbitals calculated by DMFT-ED, to figure out what our analysis indicates. 
 
 <center><img src="/assets/images/DMFTNN2/fig4.png" width="100%" height="100%"></center>
 
-Figure above shows the usage of two terms $2\alpha\sum_kV_k^2\log(|\epsilon_k|)$~and~$\beta\sum_kV_k^2/|\epsilon_k|$ results in the phase discrimination, which shows a clear discontinuity near two transition points $U_{c1}$ and $U_{c2}$. The result demonstrates that two terms $\sum_kV_k^2\log(|\epsilon_k|)$ and $\sum_kV_k^2/|\epsilon_k|$ are capable of classifying the phase between metallic phase and insulating phase with minor numerical error. Surprisingly, we found that the latter term $\sum_kV_k^2/|\epsilon_k|$ dominates in our neural network output by comparing two phase diagrams.
-Therefore we conclude that the neural network classifies phase based on the imaginary part of the zero-frequency hybridization function. We also suggest a new relationship between the bath parameters and the phase classification by means of $\sum_kV_k^2/|\epsilon_k|$, which we will denote this as $S$.
+Figure above shows the usage of two terms $2\alpha\sum_kV_k^2\log(\mid\epsilon_k\mid)$ and $\beta\sum_kV_k^2/\mid\epsilon_k\mid$ results in the phase discrimination, which shows a clear discontinuity near two transition points $U_{c1}$ and $U_{c2}$. 
+The result demonstrates that two terms $\sum_kV_k^2\log(\mid\epsilon_k\mid)$ and $\sum_kV_k^2/\mid\epsilon_k\mid$ are capable of classifying the phase between metallic phase and insulating phase with minor numerical error. Surprisingly, we found that the latter term $\sum_kV_k^2/\mid\epsilon_k\mid$ dominates in our neural network output by comparing two phase diagrams.
+Therefore we conclude that the neural network classifies phase based on the imaginary part of the zero-frequency hybridization function. We also suggest a new relationship between the bath parameters and the phase classification by means of $\sum_kV_k^2/\mid\epsilon_k\mid$, which we will denote this as $S$.
 
 To verify our hypothesis, we calculated $S^{-1}$ based on few bath parameters for various on-site interaction $U$. 
 
