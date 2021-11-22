@@ -120,7 +120,7 @@ $$
 
 Above figure presents the behavior of the weight matrix of the Logistic regression corresponding for the real and the imaginary part of the hybridization function. 
 We aim to look into the vicinity of the zero frequency $\omega\simeq0$ due to the concentration of data near this point. 
-Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W}_{Re}^{(1)}\sim-\alpha\omega$ and $\mathbf{W}_{Im}^{(1)}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
+Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W_{Re}}^{(1)}\sim-\alpha\omega$ and $\mathbf{W_{Im}}^{(1)}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
 $$
 \begin{aligned}
 \mathcal{O}&\simeq \int\frac{ d\omega}{|\omega|}(-\alpha\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{ d\omega}{|\omega|}(\beta-\gamma|\omega|)\sum_kV_k^2\delta(\omega-\epsilon_k)\\
@@ -133,7 +133,19 @@ where the last term is constant by the sum-rule of hopping elements $V_k$~\cite{
 Therefore, we focus on first two terms to interpret the analytic behavior of the output of our neural network.
 
 ## Performance of the machine-learning-inspired phase indicator
+We examine Eq.~\eqref{eq:output2} based on the discrete model of few bath orbitals calculated by DMFT-ED, to figure out what our analysis indicates. 
 
+<center><img src="/assets/images/DMFTNN2/fig4.png" width="100%" height="100%"></center>
+
+Figure above shows the usage of two terms $2\alpha\sum_kV_k^2\log(|\epsilon_k|)$~and~$\beta\sum_kV_k^2/|\epsilon_k|$ results in the phase discrimination, which shows a clear discontinuity near two transition points $U_{c1}$ and $U_{c2}$. The result demonstrates that two terms $\sum_kV_k^2\log(|\epsilon_k|)$ and $\sum_kV_k^2/|\epsilon_k|$ are capable of classifying the phase between metallic phase and insulating phase with minor numerical error. Surprisingly, we found that the latter term $\sum_kV_k^2/|\epsilon_k|$ dominates in our neural network output by comparing two phase diagrams.
+Therefore we conclude that the neural network classifies phase based on the imaginary part of the zero-frequency hybridization function. We also suggest a new relationship between the bath parameters and the phase classification by means of $\sum_kV_k^2/|\epsilon_k|$, which we will denote this as $S$.
+
+To verify our hypothesis, we calculated $S^{-1}$ based on few bath parameters for various on-site interaction $U$. 
+
+<center><img src="/assets/images/DMFTNN2/fig5.png" width="100%" height="100%"></center>
+
+Presented in above figure, $S^{-1}$ for the Bethe lattice changes steeply near the transition points $U_{c1}$ and $U_{c2}$. In the metallic phase, $S^{-1}$ is close to zero as $S$ diverges to infinity. For the case where $U$ increases in the insulating phase, $S^{-1}$ gradually increases as well. To sum up, $S^{-1}$ gives distinct values depending on the phase.
+Furthermore, to investigate the cases in different lattice geometries, we apply $S^{-1}$ to other lattices such as simple cubic (SC) and body-centered cubic (BCC) lattice. We examine whether $S^{-1}$ also appears as the critical feature of discriminating a phase even in SC and BCC lattices by numerical means. As a result, Fig.~\ref{fig:phaseall}~(b,c), which illustrates $S^{-1}$ for  SC and BCC lattices each, also shows discontinuity near two transition points $U_{c1}$ and $U_{c2}$. We conclude that $S^{-1}$ works well for discriminating metallic-insulating phase regardless of the lattices structures and therefore can be considered as a phase discriminator.
 
 ## Discussion
 
