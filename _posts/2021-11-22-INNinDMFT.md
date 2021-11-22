@@ -106,3 +106,36 @@ This pattern shows a similar weight response toward the real and the imaginary p
 roughly divided into low and high-frequency regions.
 
 <center><img src="/assets/images/DMFTNN2/fig2.png" width="100%" height="100%"></center>
+
+Regarding this universality of weight patterns, we choose to investigate the Logistic regression model to understand this general pattern. Considering the density of data $\rho(\omega) = 1/|\omega|$ due to logarithmic discretization $|\omega_n|\sim\lambda^{-n}$ and the hybridization function $\Gamma(\omega+i\eta) = \sum_kV_k^2/(\omega+i\eta-\epsilon_k)$ with respect to the bath parameters in DMFT-ED, output $\mathcal{O}$ of the regression on the real frequency domain is
+$$
+\begin{aligned}
+        \mathcal{O} &= \sum_n \left[\mathbf{W}^{(1)}_{Re, n}\text{Re}\left[\Gamma(\omega_n)\right] + \mathbf{W}^{(1)}_{Im, n}\text{Im}\left[\Gamma(\omega_n)\right]\right]\\
+        &\simeq \int\ud\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Re}(\omega)\text{Re}\left[\Gamma(\omega+i\eta)\right] + \int\ud\omega\rho(\omega)\mathbf{W}^{(1)}_\text{Im}(\omega)\text{Im}\left[\Gamma(\omega+i\eta)\right]\\
+        &= \int\frac{\ud\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Re}(\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{\ud\omega}{|\omega|}\mathbf{W}^{(1)}_\text{Im}(\omega)\sum_kV_k^2\delta(\omega-\epsilon_k),
+\end{aligned}
+$$
+
+where $\mathbf{W}^{(1)}_{Re}$ and $\mathbf{W}^{(1)}_{Im}$ are the weight matrices correspond to the real and the imaginary part of the hybridization function each. 
+
+<center><img src="/assets/images/DMFTNN2/fig3.png" width="100%" height="100%"></center>
+
+Above figure presents the behavior of the weight matrix of the Logistic regression corresponding for the real and the imaginary part of the hybridization function. 
+We aim to look into the vicinity of the zero frequency $\omega\simeq0$ due to the concentration of data near this point. 
+Along with the simple polynomial fitting for each matrix, the analysis exhibits $\mathbf{W}^{(1)}_{Re}\sim-\alpha\omega$ and $\mathbf{W}^{(1)}_{Im}\sim\beta-\gamma|\omega|$ on low frequency regime for positive real number $\alpha\approx3.5\times10^{-2}$, $\beta\approx7.7\times10^{-3}$ and $\gamma\approx1.5\times10^{-2}$. Substituting this weight matrix behavioral information, equation becomes
+$$
+\begin{aligned}
+\mathcal{O}&\simeq \int\frac{\ud\omega}{|\omega|}(-\alpha\omega)\sum_k\frac{V_k^2}{\omega-\epsilon_k} + \int\frac{\ud\omega}{|\omega|}(\beta-\gamma|\omega|)\sum_kV_k^2\delta(\omega-\epsilon_k)\\
+        &= -2\alpha\sum_k\int_{|\omega|_{\text{min}}}^{|\omega|_{\text{max}}}\frac{V_k^2}{\omega+|\epsilon_k|}\ud\omega + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-\gamma\sum_kV_k^2\\
+        &= -2\alpha\sum_k V_k^2\log\left(1+\frac{|\omega|_{\text{max}}-|\omega|_{\text{min}}}{|\epsilon_k|+|\omega_{\text{min}}|}\right) + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-\gamma\sum_kV_k^2\\
+        &\simeq 2\alpha\sum_k V_k^2\log(|\epsilon_k|) + \beta\sum_k\frac{V_k^2}{|\epsilon_k|}-(\gamma+2\alpha\log(|\omega|_{\text{max}}-|\omega|_{\text{min}}))\sum_kV_k^2,
+\end{aligned}
+$$
+where the last term is constant by the sum-rule of hopping elements $V_k$~\cite{sumrule}. 
+Therefore, we focus on first two terms to interpret the analytic behavior of the output of our neural network.
+
+## Performance of the machine-learning-inspired phase indicator
+
+
+## Discussion
+
