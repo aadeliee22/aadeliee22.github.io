@@ -66,7 +66,7 @@ Finally, calculated phase transition points $U_{c1}\sim2.3$ and $U_{c2}\sim2.9$.
 
 During DMFT procedure, hybridization function is used for reproducing lattice dynamics, 
 as it is closely related to the dynamics of the electrons and the bath of the impurity by bath parameters.
-We calculated the hybridization function under logarithmic discretization mesh~(frequency) ratio of $\lambda=1.01$ spanning from $|\omega|_{min}=10^{-5}$ to $|\omega|_{max}=5.0$. 
+We calculated the hybridization function under logarithmic discretization mesh~(frequency) ratio of $\lambda=1.01$ spanning from $|\omega|=10^{-5}\sim5.0$.
 For the NRG calculation parameters, we set logarithmic discretization parameter $\Lambda=2.0$, the number of interleaved discretization grids $N_z=4$, 
 the lowest temperature scale of Wilson chain $T_{min}=10^{-6}$, and the truncated rescale energy cutoff $12.0$ for the good convergence. 
 
