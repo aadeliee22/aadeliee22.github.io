@@ -72,6 +72,7 @@ presentations / courses / teaching experiences / etc...
 ### 2021
 - 21-fall
    * Teaching Assistant for <ins>*General Physics I*</ins> in English
+   * Presentation in <ins>*Nuclear & Particle Physics*</ins>: (1) Renormalization group, (2) Neutrino Oscillation
 
 - 21-spring
    * Teaching Assistant for <ins>*General Physics I*</ins>
