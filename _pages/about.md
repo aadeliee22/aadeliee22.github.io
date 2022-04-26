@@ -20,7 +20,9 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
    * Implementation of Machine learning; interpretable Neural networks
 
 ### Education
-- Gwangju Institute of Science & Technology ([GIST college](https://www.gist.ac.kr/kr/main.html))
+- Cornell University
+   * PhD student
+- Gwangju Institute of Science & Technology ([GIST college website](https://www.gist.ac.kr/kr/main.html))
    * B.S. Physics major, Mathematics minor
 - [Boston University](#2019-1), summer session
    * Statistics & Probability, Mocroeconomic Analysis
