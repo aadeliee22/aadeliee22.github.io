@@ -26,9 +26,6 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
    * B.S. Physics major, Mathematics minor
 - [Boston University](#2019-1), summer session
    * Statistics & Probability, Mocroeconomic Analysis
-- [Caltec-GIST collaboration course](#2018)
-   * Instructor: prof. Rob Phillips
-
 
 ## Research Experience
 ### 2021
