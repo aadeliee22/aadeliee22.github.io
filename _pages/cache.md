@@ -51,14 +51,15 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
 
 ~/.dropbox-dist/dropboxd
 
-* COMPILE	
-g++ -I/home/hyejin/trng4-4.22  -L/opt/trng/lib -ltrng4 -std=gnu++11 -ltrng4 -std=gnu++11
+* COMPILE
+   - g++ -I/home/hyejin/trng4-4.22  -L/opt/trng/lib -ltrng4 -std=gnu++11 -ltrng4 -std=gnu++11
 
 * localhost
-scp -r -oProxyJump=hyejin@172.27.54.** hyejin@172.27.54.**:~/ $(pwd)
+   - scp -r -oProxyJump=hyejin@172.27.54.** hyejin@172.27.54.**:~/ $(pwd)
 
 * vim
-u: undo, ctrl+r: redo
+   - u: undo
+   - ctrl+r: redo
 
 * shell
    - ctrl+a/e: front/back
@@ -67,7 +68,7 @@ u: undo, ctrl+r: redo
    -ctrl+y: paste
 
 * python3
-module load blas && mpiexec -n 4 python3 ~.py
+   - module load blas && mpiexec -n 4 python3 ~.py
  
 * tmux
    - tmux new -s [name]
