@@ -95,13 +95,13 @@ analytics:
 author:
   name             : "Hyejin Kim"
   avatar           : "/assets/images/캡처.PNG"
-  bio              : "Physics PhD student starting from Aug. 2022"
-  location         : "GIST, Republic of Korea -> Ithaca, NY"
+  bio              : "Physics PhD student"
+  location         : "Ithaca, NY"
   email            : "hk684@cornell.edu"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      #url: "aadeliee@gm.gist.ac.kr"
+      #url: "hk684@cornell.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
