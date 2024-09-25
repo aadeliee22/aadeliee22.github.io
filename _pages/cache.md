@@ -87,6 +87,8 @@ from mpl_toolkits.axes_grid1.inset_locator import inset_axes
    - git push
    - password/token: check Kakaotalk for this information
    - git config --global credential.helper 'cache --timeout=3600'
+ 
+   - Useful link (initialize commit history): https://younsl.github.io/blog/initialize-entire-commit-log/
 
 * cache
    - sudo sysctl -w vm.drop_caches=2 (3 for page)
