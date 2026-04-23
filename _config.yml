@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Hyejin Kim"
   avatar           : "/assets/images/캡처.PNG"
-  bio              : "Physics PhD student"
+  bio              : "PhD candidate in Cornell Univ., physics"
   location         : "Ithaca, NY"
   email            : "hk684@cornell.edu"
   links:
@@ -116,7 +116,7 @@ author:
       url: "https://github.com/aadeliee22"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/spiral2236/"
+      url: "https://www.instagram.com/hyejinkim2236/"
 
 # Site Footer
 footer:
