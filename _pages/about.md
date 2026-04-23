@@ -11,7 +11,7 @@ sidebar:
 ---
 
 ## Introduction
-This website is to list what I have done. Here is my [***CV***](https://aadeliee22.github.io/assets/files/CV_HyejinKim.pdf), for more detailed informations.
+This website is to list what I have done. Here is my [***CV***](https://aadeliee22.github.io/assets/files/CV_HyejinKim (1).pdf), for more detailed informations.
 
 ### Research interest
 - Condensed matter theory (CMT)
