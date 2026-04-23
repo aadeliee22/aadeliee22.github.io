@@ -32,7 +32,12 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 - 25-fall
 
 ### 2024
-- 24-fall
+- 24-fall to 25-spring: Learning the phases of monitored quantum dynamics
+  * Developed a scalable, data-centric framework for detecting measurement-induced phase transitions (MIPTs) in monitored circuits without post-selection or classical simulation, enabling experimental observability on near-term quantum hardware
+  * Experimental collaboration with Quantinuum in the ongoing follow-up work.
+  * Manuscript under review in PRX Intelligence: H. Kim, A. Kumar, Y. Zhou, Y. Xu, R. Vasseur, E.-A. Kim, Learning measurement-induced phase transitions using attention, [arXiv:2508.15895](https://arxiv.org/abs/2508.15895)
+  * 
+  <center><img src="/assets/images/MIPT-fig2.png" width="60%" height="60%"></center>
 
 ### 2022
 - 22-fall to 24-spring: Attention to Quantum Complexity
@@ -41,7 +46,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
   * Collaboration with Google Quantum AI and MIT. Published in Science Advances. 
   * Published in Science Advances: H. Kim, Y. Zhou, Y. Xu, K. Varma, A. H. Karamlou, I. T. Rosen, J. C. Hoke, C. Wan, J. P. Zhou, W. D. Oliver, Y. D. Lensky, K. Q. Weinberger, E.-A. Kim, Attention to Quantum Complexity, [Sci. Adv. 11, eadu0059 (2025)](https://www.science.org/doi/10.1126/sciadv.adu0059).
  
-    <center><img src="/assets/images/QuAN-fig1.pdf" width="60%" height="60%"></center>
+    <center><img src="/assets/images/QuAN-fig1.png" width="60%" height="60%"></center>
 
 ### 2021
 - 21-fall to 22-spring
