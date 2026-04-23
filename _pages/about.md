@@ -43,7 +43,7 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 - 22-fall to 24-spring: Attention to Quantum Complexity
   * Introduce Quantum Attention Network (QuAN) that leverages the power of attention mechanisms driving large language models (LLM) to characterize complexity of quantum states from bit string data.
   * Resolved three open problems (i) witnessing entanglement scaling transition, (ii) detecting the growth of quantum complexity in deep random quantum circuit despite the noise, (iii) revealing mixed-state topological order of toric code.
-  * Collaboration with Google Quantum AI and MIT. Published in Science Advances. 
+  * Collaboration with Google Quantum AI and MIT.
   * Published in Science Advances: H. Kim, Y. Zhou, Y. Xu, K. Varma, A. H. Karamlou, I. T. Rosen, J. C. Hoke, C. Wan, J. P. Zhou, W. D. Oliver, Y. D. Lensky, K. Q. Weinberger, E.-A. Kim, Attention to Quantum Complexity, [Sci. Adv. 11, eadu0059 (2025)](https://www.science.org/doi/10.1126/sciadv.adu0059).
  
     <center><img src="/assets/images/QuAN-fig1.png" width="60%" height="60%"></center>
@@ -80,14 +80,20 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
 
       <center><img src="/assets/images/ising_pic/IV_2_2_2(2).png" width="50%" height="50%"></center>
 
-
 ### 2019
 - 19-winter
-  * AdS-CFT with deep learning: Python & Tensorflow ([github](https://github.com/aadeliee22/DL-AdS-CFT))
+  * AdS-CFT with deep learning: Tensorflow ([github](https://github.com/aadeliee22/DL-AdS-CFT))
 
 
-## Extra: Presentations, Projects, TA... 
-presentations / courses / teaching experiences / etc...
+## Extra curriculum
+
+### 2025
+- 25-fall
+  * Teaching Assisntant for PHYS 2214 Oscillations, Waves, and Quantum Physics. Manage discussion sections, lab sections, homework, and exams.
+### 2022
+- 22-fall
+  * Teaching Assistant for PHYS 2213 Electromagnetism: Manage discussion sections, homework, and exams.
+
 ### 2021
 - 21-fall
    * Teaching Assistant for <ins>*General Physics I*</ins> in English
@@ -105,22 +111,17 @@ presentations / courses / teaching experiences / etc...
   * Teaching Assistant for <ins>*General Physics I*</ins>
   * Project in <ins>*Quantum Physics I*</ins>: Exact solution of finite harmonic oscillator ([summary](https://aadeliee22.github.io/physics%20(course)/qm-homework/))
 
-      <center><img src="/assets/images/mid-3.PNG" width="50%" height="50%"></center>
-
-
 ### 2019
 - 19-summer
   * Boston University summer international exchange: Introductory Microeconomic Analysis, Basic Statistics and Probability 
 - 19-spring
   * Presentation in Physics & Math Seminar: Coanda effect ([summary](https://aadeliee22.github.io/physics%20(etc)/coanda/))
-  * Physics club president
 
 ### 2018 
 - 18-winter
   * Caltech collaboration course, <ins>*Physical Biology of the Cell*</ins> ([PBoC](http://www.rpgroup.caltech.edu/gist_pboc_2019/posts/2019/01/15/code.html>))
 
 ### 2016-7
-  * Korean Youth Physicists' Tournament (KYPT): Fast chain, Spiral wave, Torsion gyroscope was my subject.
-  * Research & Education program: Stability of liquid surface in condition of human walking
+  * Korean Youth Physicists' Tournament (KYPT): Fast chain, Spiral wave, Torsion gyroscope
 
 
