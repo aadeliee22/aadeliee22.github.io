@@ -24,9 +24,30 @@ This website is to list what I have done. Here is my [***CV***](https://aadeliee
    * B.S. Physics, minor in Math
 
 ## Research Experience
+
+### 2026
+- 26-spring
+
+### 2025
+- 25-fall
+
+### 2024
+- 24-fall
+
+### 2022
+- 22-fall to 24-spring: Attention to Quantum Complexity
+  * Introduce Quantum Attention Network (QuAN) that leverages the power of attention mechanisms driving large language models (LLM) to characterize complexity of quantum states from bit string data.
+  * Resolved three open problems (i) witnessing entanglement scaling transition, (ii) detecting the growth of quantum complexity in deep random quantum circuit despite the noise, (iii) revealing mixed-state topological order of toric code.
+  * Collaboration with Google Quantum AI and MIT. Published in Science Advances. 
+  * Published in Science Advances: H. Kim, Y. Zhou, Y. Xu, K. Varma, A. H. Karamlou, I. T. Rosen, J. C. Hoke, C. Wan, J. P. Zhou, W. D. Oliver, Y. D. Lensky, K. Q. Weinberger, E.-A. Kim, Attention to Quantum Complexity, [Sci. Adv. 11, eadu0059 (2025)](https://www.science.org/doi/10.1126/sciadv.adu0059).
+ 
+    <center><img src="/assets/images/QuAN-fig1.pdf" width="60%" height="60%"></center>
+
 ### 2021
-- 21-fall
-   * Interpretation on minimal neural network to learn the metal-insulator transition in the dynamical mean-field theory. Analyzing the network connectivity to find the system measure that can be employed to broader range beyond our specific setup, based on the few bath orbitals from DMFT-ED. Currently working on publication. ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/INNinDMFT/))
+- 21-fall to 22-spring
+   * Interpretation on minimal neural network to learn the metal-insulator transition in the dynamical mean-field theory. Analyzing the network connectivity to find the system measure that can be employed to broader range beyond our specific setup, based on the few bath orbitals from DMFT-ED.
+   * Published: H. Kim, D. Kim, D.-H. Kim, Minimal Neural Network to Learn the Metal-insulator Transition in the Dynamical Mean-field Theory, NPSM 2022, 72, 487-494 (2022).
+   * ([github](https://github.com/aadeliee22/Hubbard_NN), [summary](https://aadeliee22.github.io/physics%20(research)/INNinDMFT/))
    
    <center><img src="/assets/images/DMFTNN2/fig3.png" width="60%" height="60%"></center>
    
