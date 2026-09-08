@@ -13,6 +13,8 @@ published : true
 ---
 This work is a collaborative work.
 
+[Journal article](https://www.npsm-kps.org/journal/view.html?doi=10.3938/NPSM.72.487) · [Code](https://github.com/aadeliee22/Hubbard_NN)
+
 In this research, we address the derivation of a new measure through interpretation of machine learning by employing DMFT with single-band Hubbard model which experiences a metal-insulator transition.
 Our goal is to present a machine learning scheme that detects the metal-insulator transition and to interpret the pattern of the neural network with respect to the phase of matter.
 
@@ -148,4 +150,3 @@ Presented in above figure, $S^{-1}$ for the Bethe lattice changes steeply near t
 Furthermore, to investigate the cases in different lattice geometries, we apply $S^{-1}$ to other lattices such as simple cubic (SC) and body-centered cubic (BCC) lattice. We examine whether $S^{-1}$ also appears as the critical feature of discriminating a phase even in SC and BCC lattices by numerical means. As a result, Fig.~\ref{fig:phaseall}~(b,c), which illustrates $S^{-1}$ for  SC and BCC lattices each, also shows discontinuity near two transition points $U_{c1}$ and $U_{c2}$. We conclude that $S^{-1}$ works well for discriminating metallic-insulating phase regardless of the lattices structures and therefore can be considered as a phase discriminator.
 
 ## Discussion
-

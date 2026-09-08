@@ -1,2 +1,481 @@
-@import "minimal-mistakes/skins/mint"; // skin
-@import "minimal-mistakes/skins/mycolor"; // skin
+---
+# Main stylesheet
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/default";
+@import "minimal-mistakes";
+
+$cornell-red: #b31b1b;
+$ink: #16212b;
+$muted: #59636e;
+$paper: #fbfaf7;
+$warm: #f1ede6;
+$line: #d9d5ce;
+$deep-red: #821414;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: $ink;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 17px;
+  line-height: 1.72;
+}
+
+h1,
+h2,
+h3,
+.site-title {
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  letter-spacing: -0.025em;
+}
+
+a {
+  color: $deep-red;
+}
+
+a:hover {
+  color: $cornell-red;
+}
+
+.masthead {
+  border-bottom: 1px solid $line;
+  box-shadow: none;
+}
+
+.masthead__inner-wrap {
+  max-width: 1180px;
+  padding: 0.8rem 1rem;
+}
+
+.site-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.site-subtitle {
+  color: $muted;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.greedy-nav a {
+  color: $ink;
+}
+
+.greedy-nav .visible-links a::before {
+  background: $cornell-red;
+}
+
+#main {
+  max-width: 1180px;
+}
+
+.splash {
+  width: 100%;
+}
+
+.page {
+  padding-right: 0;
+  width: 100%;
+}
+
+.page__inner-wrap {
+  margin: 0 auto;
+  max-width: 940px;
+}
+
+.page__content h2 {
+  border-bottom: 0;
+  margin-top: 2.8rem;
+}
+
+.home-shell {
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.research-hero {
+  max-width: 900px;
+  padding: 5.5rem 0 4.5rem;
+}
+
+.eyebrow,
+.section-label,
+.project-status {
+  color: $cornell-red;
+  font-size: 0.76rem;
+  font-weight: 750;
+  letter-spacing: 0.12em;
+  margin: 0 0 0.65rem;
+  text-transform: uppercase;
+}
+
+.research-hero h1 {
+  font-size: clamp(3.2rem, 8vw, 6.3rem);
+  line-height: 0.98;
+  margin: 0;
+}
+
+.hero-role {
+  color: $muted;
+  font-size: 1.12rem;
+  font-weight: 650;
+  margin: 1rem 0 1.35rem;
+}
+
+.hero-lead {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.4rem, 2.6vw, 2.05rem);
+  line-height: 1.42;
+  margin: 0;
+  max-width: 880px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 2rem;
+}
+
+.research-button {
+  border: 1px solid $ink;
+  color: $ink;
+  display: inline-block;
+  font-size: 0.82rem;
+  font-weight: 700;
+  padding: 0.68rem 1rem;
+  text-decoration: none;
+}
+
+.research-button:hover {
+  background: $warm;
+  color: $ink;
+  text-decoration: none;
+}
+
+.research-button--primary {
+  background: $ink;
+  color: white;
+}
+
+.research-button--primary:hover {
+  background: $cornell-red;
+  border-color: $cornell-red;
+  color: white;
+}
+
+.research-points {
+  border-bottom: 1px solid $line;
+  border-top: 1px solid $line;
+  list-style: none;
+  margin: 0 0 4.5rem;
+  padding: 0.65rem 0;
+}
+
+.research-points li {
+  color: $muted;
+  font-size: 0.96rem;
+  margin: 0;
+  padding: 0.75rem 0 0.75rem 1.5rem;
+  position: relative;
+}
+
+.research-points li::before {
+  color: $cornell-red;
+  content: "•";
+  font-size: 1.25rem;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  top: 0.78rem;
+}
+
+.research-points li + li {
+  border-top: 1px solid rgba($line, 0.7);
+}
+
+.home-section > h2 {
+  font-size: clamp(2.1rem, 4.5vw, 3.5rem);
+  line-height: 1.16;
+  margin: 0 0 3.7rem;
+  max-width: 760px;
+}
+
+.feature-row,
+.project-detail {
+  align-items: center;
+  border-top: 1px solid $line;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+  padding: 3.8rem 0;
+}
+
+.feature-row--reverse .feature-figure,
+.project-detail--reverse .project-detail__figure {
+  order: 2;
+}
+
+.feature-figure,
+.project-detail__figure,
+.full-width-figure {
+  background: white;
+  margin: 0;
+}
+
+.feature-figure img,
+.project-detail__figure img,
+.full-width-figure img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+.feature-copy h3,
+.project-detail h2 {
+  font-size: clamp(1.75rem, 3.2vw, 2.55rem);
+  line-height: 1.18;
+  margin: 0 0 1rem;
+}
+
+.feature-copy p,
+.project-detail__text p {
+  color: $muted;
+}
+
+.text-links {
+  font-size: 0.85rem;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+}
+
+.text-links a {
+  text-decoration: none;
+}
+
+.text-links span {
+  color: $line;
+  margin: 0 0.35rem;
+}
+
+.current-direction {
+  background: $warm;
+  margin: 4.5rem 0;
+  padding: clamp(2rem, 5vw, 4rem);
+}
+
+.current-direction h2 {
+  font-size: clamp(1.8rem, 4vw, 3rem);
+  line-height: 1.2;
+  margin: 0 0 1rem;
+}
+
+.current-direction p:not(.section-label) {
+  max-width: 820px;
+}
+
+.inline-arrow {
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.contact-strip {
+  border-top: 1px solid $line;
+  margin: 5rem 0 1rem;
+  padding: 3.5rem 0;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 2rem;
+}
+
+.contact-links a {
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.35rem, 3.5vw, 2.3rem);
+  font-weight: 700;
+  text-decoration-color: $line;
+  text-underline-offset: 0.2em;
+}
+
+.page-intro {
+  border-bottom: 1px solid $line;
+  margin-bottom: 3rem;
+  padding: 3.5rem 0 2.5rem;
+}
+
+.page-deck {
+  color: $ink;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(1.55rem, 3.6vw, 2.65rem);
+  line-height: 1.3;
+  margin: 0;
+}
+
+.project-detail {
+  align-items: start;
+  grid-template-columns: minmax(0, 1fr) minmax(310px, 1fr);
+}
+
+.project-detail__text h2 {
+  margin-top: 0;
+}
+
+.project-detail__figure figcaption,
+.full-width-figure figcaption {
+  color: $muted;
+  font-size: 0.75rem;
+  line-height: 1.45;
+  margin-top: 0.7rem;
+}
+
+.project-detail--text-only {
+  display: block;
+}
+
+.project-detail--text-only .project-detail__text {
+  max-width: 830px;
+}
+
+.research-question {
+  border-left: 3px solid $cornell-red;
+  margin-top: 1.7rem;
+  padding: 0.4rem 0 0.4rem 1.25rem;
+}
+
+.research-question p {
+  margin-bottom: 0;
+}
+
+.full-width-figure {
+  border-bottom: 1px solid $line;
+  margin: 0 0 4rem;
+  padding-bottom: 2rem;
+}
+
+.publication-note {
+  color: $muted;
+}
+
+.publication-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.publication-list li {
+  border-top: 1px solid $line;
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 64px 1fr;
+  padding: 1.5rem 0;
+}
+
+.publication-year {
+  color: $cornell-red;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.publication-venue {
+  color: $muted;
+}
+
+.talk-list > div {
+  border-top: 1px solid $line;
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 110px 1fr;
+  padding: 1.25rem 0;
+}
+
+.talk-list time {
+  color: $cornell-red;
+  font-size: 0.78rem;
+  font-weight: 800;
+}
+
+.talk-list p {
+  margin: 0;
+}
+
+.notes-list article {
+  border-top: 1px solid $line;
+  padding: 1.5rem 0;
+}
+
+.notes-list time {
+  color: $cornell-red;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.notes-list h2 {
+  font-size: 1.55rem;
+  margin: 0.3rem 0 0.45rem;
+}
+
+.notes-list h2 a {
+  color: $ink;
+  text-decoration: none;
+}
+
+.page__footer {
+  background: $ink;
+  color: white;
+  margin-top: 4rem;
+}
+
+.page__footer a,
+.page__footer-follow .social-icons i {
+  color: white;
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  .site-subtitle {
+    display: none;
+  }
+
+  .research-hero {
+    padding: 3.5rem 0 3rem;
+  }
+
+  .feature-row,
+  .project-detail {
+    gap: 1.8rem;
+    grid-template-columns: 1fr;
+    padding: 2.7rem 0;
+  }
+
+  .feature-row--reverse .feature-figure,
+  .project-detail--reverse .project-detail__figure {
+    order: initial;
+  }
+
+  .contact-links {
+    flex-direction: column;
+  }
+
+  .publication-list li,
+  .talk-list > div {
+    gap: 0.45rem;
+    grid-template-columns: 1fr;
+  }
+}

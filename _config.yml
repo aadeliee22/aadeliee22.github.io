@@ -12,25 +12,25 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : "mycolor" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "mint"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "My Website"
+title                    : "Hyejin Kim"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Quantum information · machine learning"
 name                     : "Hyejin Kim"
-description              : "My website"
+description              : "Hyejin Kim is a physics Ph.D. candidate at Cornell University developing machine-learning methods for quantum information, dynamics, error correction, and hardware-aware compilation."
 url                      : "https://aadeliee22.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "aadeliee22/aadeliee22.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : false
   disqus:
     shortname            : "https-aadeliee22-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -51,7 +51,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : true # true, false (default)
+search                   : false
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -75,13 +75,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : "/assets/images/research/naca-overview.png"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Hyejin Kim"
+  links:
+    - "https://scholar.google.com/citations?user=QioxoEgAAAAJ&hl=en"
+    - "https://github.com/aadeliee22"
+    - "https://www.linkedin.com/in/hyejin-kim-4b8137226/"
 
 # Analytics
 analytics:
@@ -94,51 +97,32 @@ analytics:
 # Site Author
 author:
   name             : "Hyejin Kim"
-  avatar           : "/assets/images/캡처.PNG"
-  bio              : "PhD candidate in Cornell Univ., physics"
+  bio              : "Ph.D. candidate in physics at Cornell University"
   location         : "Ithaca, NY"
   email            : "hk684@cornell.edu"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      #url: "hk684@cornell.edu"
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-in"
-      url: "https://www.linkedin.com/in/hyejin-kim-4b8137226/?skipRedirect=true"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=QioxoEgAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/aadeliee22"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/hyejinkim2236/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin-in"
+      url: "https://www.linkedin.com/in/hyejin-kim-4b8137226/"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=QioxoEgAAAAJ&hl=en"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
-      # url:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+      url: "https://github.com/aadeliee22"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hk684@cornell.edu"
 
 
 # Reading Files

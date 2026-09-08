@@ -1,6 +1,86 @@
 ---
-layout: home
-author_profile: true 
-sidebar:
-  nav: "docs"
+layout: splash
+title: "Hyejin Kim"
+permalink: /
+excerpt: "Physics-informed machine learning for quantum information, dynamics, error correction, and control."
 ---
+
+<div class="home-shell">
+  <section class="research-hero" aria-labelledby="home-title">
+    <p class="eyebrow">Cornell University · Ph.D. expected August 2027</p>
+    <h1 id="home-title">Hyejin Kim</h1>
+    <p class="hero-role">Ph.D. Candidate in Physics</p>
+    <p class="hero-lead">I develop physics-informed machine-learning methods that extract structure from limited quantum measurements and turn it into reliable decisions for quantum discovery, error correction, and hardware control.</p>
+    <div class="hero-actions">
+      <a class="research-button research-button--primary" href="{{ '/research/' | relative_url }}">Explore my research</a>
+      <a class="research-button" href="{{ '/assets/files/CV_HyejinKim.pdf' | relative_url }}">Curriculum vitae</a>
+      <a class="research-button" href="https://scholar.google.com/citations?user=QioxoEgAAAAJ&hl=en">Google Scholar</a>
+      <a class="research-button" href="mailto:hk684@cornell.edu">Email</a>
+    </div>
+  </section>
+
+  <ul class="research-points" aria-label="Research program">
+    <li>Learn many-body structure and dynamics directly from finite, noisy measurement records.</li>
+    <li>Decode logical information with architectures that respect circuit geometry and causal structure.</li>
+    <li>Compile quantum circuits into hardware-feasible control decisions under realistic constraints.</li>
+  </ul>
+
+  <section class="home-section" aria-labelledby="featured-work">
+    <p class="section-label">Selected work</p>
+    <h2 id="featured-work">Learning architectures for complex quantum systems</h2>
+
+    <article class="feature-row">
+      <figure class="feature-figure feature-figure--wide">
+        <img src="{{ '/assets/images/research/naca-overview.png' | relative_url }}" alt="Neutral Atom Compiler Agent compared with a heuristic compiler for scheduling atom movements">
+      </figure>
+      <div class="feature-copy">
+        <p class="project-status">Current work · manuscript in preparation</p>
+        <h3>Hardware-aware neutral-atom compilation</h3>
+        <p>The Neutral Atom Compiler Agent (NACA) constructs parallel atom-transport batches autoregressively while masking physically invalid actions. It jointly reasons about placement, movement, scheduling, and modeled device error.</p>
+        <p>Across the studied circuits, learned policies improve modeled fidelity over a heuristic compiler and transfer across circuit sizes and families.</p>
+        <p class="text-links"><a href="{{ '/research/#neutral-atom-compilation' | relative_url }}">Project summary</a></p>
+      </div>
+    </article>
+
+    <article class="feature-row feature-row--reverse">
+      <figure class="feature-figure">
+        <img src="{{ '/assets/images/MIPT-fig2.png' | relative_url }}" alt="Attention architecture for learning measurement-induced phase transitions from monitored-circuit trajectories">
+      </figure>
+      <div class="feature-copy">
+        <p class="project-status">Preprint · under review</p>
+        <h3>Learning monitored quantum dynamics</h3>
+        <p>I extended attention across measurement trajectories and time to detect measurement-induced phase transitions without trajectory post-selection or classical simulation.</p>
+        <p>The method provides a sample-efficient, noise-tolerant route toward experiments beyond classically tractable regimes. Follow-up work with Quantinuum is ongoing.</p>
+        <p class="text-links"><a href="https://arxiv.org/abs/2508.15895">arXiv</a> <span aria-hidden="true">·</span> <a href="{{ '/research/#monitored-quantum-dynamics' | relative_url }}">Project summary</a></p>
+      </div>
+    </article>
+
+    <article class="feature-row">
+      <figure class="feature-figure">
+        <img src="{{ '/assets/images/QuAN-fig1.png' | relative_url }}" alt="Quantum Attention Network architecture and its applications to entanglement, circuit complexity, and toric-code decodability">
+      </figure>
+      <div class="feature-copy">
+        <p class="project-status">Published · Science Advances (2025)</p>
+        <h3>Attention to quantum complexity</h3>
+        <p>I co-developed the Quantum Attention Network (QuAN), which treats quantum-measurement snapshots as an unordered set and learns distribution-level correlations without reconstructing the full quantum state.</p>
+        <p>The framework resolves entanglement-scaling transitions, detects complexity growth in noisy random circuits, and reveals mixed-state topological order.</p>
+        <p class="text-links"><a href="https://www.science.org/doi/10.1126/sciadv.adu0059">Paper</a> <span aria-hidden="true">·</span> <a href="{{ '/research/#quantum-attention-network' | relative_url }}">Project summary</a></p>
+      </div>
+    </article>
+  </section>
+
+  <section class="current-direction" aria-labelledby="current-work">
+    <p class="section-label">Current direction</p>
+    <h2 id="current-work">Scalable decoding for fault-tolerant quantum circuits</h2>
+    <p>I am developing a sparse-attention circuit-level decoder for the surface code. The goal is to retain the modular structure needed for logical operations while reducing the memory and computation required as code distance grows.</p>
+    <a class="inline-arrow" href="{{ '/research/#quantum-error-correction' | relative_url }}">Read about the project <span aria-hidden="true">→</span></a>
+  </section>
+
+  <section class="contact-strip" aria-label="Email addresses">
+    <p class="section-label">Contact</p>
+    <div class="contact-links">
+      <a href="mailto:hk684@cornell.edu">hk684@cornell.edu</a>
+      <a href="mailto:hyejinkim618@gmail.com">hyejinkim618@gmail.com</a>
+    </div>
+  </section>
+</div>
