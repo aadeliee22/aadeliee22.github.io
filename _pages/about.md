@@ -8,13 +8,13 @@ excerpt: "About Hyejin Kim, a physics Ph.D. candidate at Cornell University."
 ---
 
 <div class="page-intro about-intro">
+  <figure class="about-portrait">
+    <img src="{{ '/assets/images/hyejin-kim-about.jpg' | relative_url }}" alt="Hyejin Kim at the beach" decoding="async">
+  </figure>
   <div class="about-intro__copy">
     <p class="eyebrow">About</p>
     <p class="page-deck">I am a physics Ph.D. candidate at Cornell University, advised by Prof. Eun-Ah Kim. My research sits at the interface of quantum information, many-body dynamics, and machine learning.</p>
   </div>
-  <figure class="about-portrait">
-    <img src="{{ '/assets/images/hyejin-kim-about.jpg' | relative_url }}" alt="Hyejin Kim at the beach" decoding="async">
-  </figure>
 </div>
 
 I design learning architectures around the physical structure of a problem. In my work, attention acts across measurement snapshots and monitored trajectories, sparse computation follows the geometry of quantum error-correction circuits, and reinforcement-learning policies operate within the motion constraints of reconfigurable atom arrays. The recurring goal is to extract useful quantum information without requiring complete state reconstruction or exact classical optimization.

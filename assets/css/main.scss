@@ -343,12 +343,13 @@ a:hover {
 .about-intro {
   align-items: center;
   display: grid;
-  gap: clamp(2rem, 5vw, 4rem);
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+  gap: clamp(1.75rem, 4vw, 3.25rem);
+  grid-template-columns: minmax(180px, 230px) minmax(0, 1fr);
 }
 
 .about-portrait {
   margin: 0;
+  max-width: 230px;
 }
 
 .about-portrait img {
@@ -534,7 +535,7 @@ a:hover {
   }
 
   .about-portrait {
-    max-width: 320px;
+    max-width: 220px;
   }
 
   .publication-list li,
