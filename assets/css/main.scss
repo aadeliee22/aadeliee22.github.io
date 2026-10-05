@@ -128,31 +128,8 @@ a:hover {
 .hero-portrait img {
   display: block;
   height: 100%;
-  inset: 0;
   object-fit: cover;
-  position: absolute;
   width: 100%;
-}
-
-.hero-portrait__alternate {
-  animation: portrait-crossfade 14s ease-in-out infinite;
-  opacity: 0;
-}
-
-@keyframes portrait-crossfade {
-  0%,
-  40% {
-    opacity: 0;
-  }
-
-  50%,
-  90% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
 }
 
 .eyebrow,
@@ -363,6 +340,27 @@ a:hover {
   padding: 3.5rem 0 2.5rem;
 }
 
+.about-intro {
+  align-items: center;
+  display: grid;
+  gap: clamp(2rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1fr) minmax(220px, 300px);
+}
+
+.about-portrait {
+  margin: 0;
+}
+
+.about-portrait img {
+  aspect-ratio: 4 / 5;
+  border: 1px solid $line;
+  box-shadow: 0 16px 36px rgba($ink, 0.12);
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+}
+
 .page-deck {
   color: $ink;
   font-family: Georgia, "Times New Roman", serif;
@@ -531,15 +529,17 @@ a:hover {
     flex-direction: column;
   }
 
+  .about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .about-portrait {
+    max-width: 320px;
+  }
+
   .publication-list li,
   .talk-list > div {
     gap: 0.45rem;
     grid-template-columns: 1fr;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .hero-portrait__alternate {
-    animation: none;
   }
 }
