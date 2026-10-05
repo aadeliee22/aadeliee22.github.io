@@ -115,18 +115,44 @@ a:hover {
 }
 
 .hero-portrait {
-  margin: 0;
-}
-
-.hero-portrait img {
   aspect-ratio: 1;
   border: 5px solid $paper;
   border-radius: 50%;
   box-shadow: 0 0 0 1px $line, 0 16px 36px rgba($ink, 0.14);
-  display: block;
-  height: auto;
-  object-fit: cover;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
   width: clamp(148px, 18vw, 188px);
+}
+
+.hero-portrait img {
+  display: block;
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+  width: 100%;
+}
+
+.hero-portrait__alternate {
+  animation: portrait-crossfade 14s ease-in-out infinite;
+  opacity: 0;
+}
+
+@keyframes portrait-crossfade {
+  0%,
+  40% {
+    opacity: 0;
+  }
+
+  50%,
+  90% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
 }
 
 .eyebrow,
@@ -484,7 +510,7 @@ a:hover {
     gap: 1rem;
   }
 
-  .hero-portrait img {
+  .hero-portrait {
     border-width: 4px;
     width: clamp(92px, 26vw, 120px);
   }
@@ -509,5 +535,11 @@ a:hover {
   .talk-list > div {
     gap: 0.45rem;
     grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-portrait__alternate {
+    animation: none;
   }
 }
