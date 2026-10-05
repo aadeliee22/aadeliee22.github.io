@@ -103,8 +103,30 @@ a:hover {
 }
 
 .research-hero {
-  max-width: 900px;
+  max-width: 980px;
   padding: 5.5rem 0 4.5rem;
+}
+
+.hero-intro {
+  align-items: center;
+  display: grid;
+  gap: clamp(1.5rem, 5vw, 4rem);
+  grid-template-columns: minmax(0, 1fr) auto;
+}
+
+.hero-portrait {
+  margin: 0;
+}
+
+.hero-portrait img {
+  aspect-ratio: 1;
+  border: 5px solid $paper;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px $line, 0 16px 36px rgba($ink, 0.14);
+  display: block;
+  height: auto;
+  object-fit: cover;
+  width: clamp(148px, 18vw, 188px);
 }
 
 .eyebrow,
@@ -455,6 +477,16 @@ a:hover {
 
   .research-hero {
     padding: 3.5rem 0 3rem;
+  }
+
+  .hero-intro {
+    align-items: end;
+    gap: 1rem;
+  }
+
+  .hero-portrait img {
+    border-width: 4px;
+    width: clamp(92px, 26vw, 120px);
   }
 
   .feature-row,
