@@ -19,7 +19,7 @@ excerpt: "Publications and preprints by Hyejin Kim."
 <ol class="publication-list">
   <li>
     <span class="publication-year">2026</span>
-    <div><strong>Learning from almost nothing: How neural networks survive heavy input corruption</strong><br>Justin Tahmassebpur, Asadullah Bhuiyan, <strong>Hyejin Kim</strong>, and Omri Lesser<br><span class="publication-venue">arXiv:2606.11319</span><br><a href="https://arxiv.org/abs/2606.11319">arXiv</a></div>
+    <div><strong>Neural network robustness under heavy input corruption</strong><br>Justin Tahmassebpur, Asadullah Bhuiyan, <strong>Hyejin Kim</strong>, and Omri Lesser<br><span class="publication-venue"><em>Physical Review Research</em> (2026) · doi:10.1103/qkrg-wbbj</span><br><a href="https://journals.aps.org/prresearch/abstract/10.1103/qkrg-wbbj">Journal</a> <span aria-hidden="true">·</span> <a href="https://arxiv.org/abs/2606.11319">arXiv</a></div>
   </li>
   <li>
     <span class="publication-year">2025</span>

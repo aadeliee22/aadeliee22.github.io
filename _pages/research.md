@@ -77,7 +77,7 @@ My research approaches this question at three levels. I learn physical structure
 
 ## Robust learning under severe corruption
 
-In complementary work on attribute noise, we found that multilayer perceptrons retain above-chance performance even when inputs are more than 90% corrupted. An infinite-width analysis identifies a universal leading decision rule in the heavy-corruption regime: classification approaches a nearest-class-centroid comparison. This provides an interpretable example of complex learned behavior reducing to a simple statistic in an extreme limit. [Read the preprint](https://arxiv.org/abs/2606.11319).
+In complementary work on attribute noise, we found that multilayer perceptrons retain above-chance performance even when inputs are more than 90% corrupted. An infinite-width analysis identifies a universal leading decision rule in the heavy-corruption regime: classification approaches a nearest-class-centroid comparison. This provides an interpretable example of complex learned behavior reducing to a simple statistic in an extreme limit. [Read the article in Physical Review Research](https://journals.aps.org/prresearch/abstract/10.1103/qkrg-wbbj).
 
 ## Earlier research
 
