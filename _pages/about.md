@@ -9,7 +9,7 @@ excerpt: "About Hyejin Kim, a physics Ph.D. candidate at Cornell University."
 
 <div class="page-intro about-intro">
   <figure class="about-portrait">
-    <img src="{{ '/assets/images/hyejin-kim-about.jpg' | relative_url }}" alt="Hyejin Kim at the beach" decoding="async">
+    <img src="{{ '/assets/images/hyejin-kim-about-wide.jpg' | relative_url }}" alt="Hyejin Kim standing on a beach at sunset" decoding="async">
   </figure>
   <div class="about-intro__copy">
     <p class="eyebrow">About</p>

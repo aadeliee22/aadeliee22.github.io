@@ -341,24 +341,23 @@ a:hover {
 }
 
 .about-intro {
-  align-items: center;
+  align-items: start;
   display: grid;
   gap: clamp(1.75rem, 4vw, 3.25rem);
-  grid-template-columns: minmax(180px, 230px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .about-portrait {
   margin: 0;
-  max-width: 230px;
+  max-width: none;
+  width: 100%;
 }
 
 .about-portrait img {
-  aspect-ratio: 4 / 5;
   border: 1px solid $line;
   box-shadow: 0 16px 36px rgba($ink, 0.12);
   display: block;
   height: auto;
-  object-fit: cover;
   width: 100%;
 }
 
@@ -532,10 +531,6 @@ a:hover {
 
   .about-intro {
     grid-template-columns: 1fr;
-  }
-
-  .about-portrait {
-    max-width: 220px;
   }
 
   .publication-list li,
