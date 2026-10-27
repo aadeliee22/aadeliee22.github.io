@@ -13,7 +13,7 @@ excerpt: "About Hyejin Kim, a physics Ph.D. candidate at Cornell University."
   </figure>
   <div class="about-intro__copy">
     <p class="eyebrow">About</p>
-    <p class="page-deck">I am a physics Ph.D. candidate at Cornell University, advised by Prof. Eun-Ah Kim. My research sits at the interface of quantum information, many-body dynamics, and machine learning.</p>
+    <p class="page-deck">I am a physics Ph.D. candidate at Cornell University, advised by Prof. Eun-Ah Kim. My research sits at the interface of quantum computing, quantum information, many-body dynamics, and machine learning.</p>
   </div>
 </div>
 
